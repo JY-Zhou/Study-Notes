@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.23)  26 OCT 2014 10:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.23)  27 OCT 2014 00:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -44,27 +44,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 
+Overfull \hbox (26.41275pt too wide) in paragraph at lines 8--10
+\OT1/cmr/m/n/10 should be dis-tin-guished be-tween \OT1/cmr/m/it/10 com-pound(d
+ecomposable) \OT1/cmr/m/n/10 and \OT1/cmr/m/it/10 sim-ple(indecomposable)
+ []
+
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 233 strings out of 495028
- 2489 string characters out of 6181496
- 47878 words of memory out of 5000000
- 3517 multiletter control sequences out of 15000+600000
- 8549 words of font info for 30 fonts, out of 8000000 for 9000
+ 235 strings out of 495028
+ 2510 string characters out of 6181496
+ 48878 words of memory out of 5000000
+ 3518 multiletter control sequences out of 15000+600000
+ 8895 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 23i,6n,17p,156b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 23i,6n,17p,206b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Notes.pdf (1 page, 58009 bytes).
+type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti12.pfb>
+Output written on Notes.pdf (1 page, 75571 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
