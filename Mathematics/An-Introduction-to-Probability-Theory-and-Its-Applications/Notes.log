@@ -1,14 +1,23 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.23)  27 OCT 2014 00:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.26)  27 OCT 2014 20:35
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **Notes.tex
-(./Notes.tex
+
+(C:\Users\v-jianyz\Documents\GitHub\StudyNotes\Mathematics\An-Introduction-to-P
+robability-Theory-and-Its-Applications\Notes.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files\Tex\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+("C:\Program Files\Tex\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -22,9 +31,9 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./Notes.aux)
-\openout1 = `Notes.aux'.
-
+)
+(C:\Users\v-jianyz\Documents\GitHub\StudyNotes\Mathematics\An-Introduction-to-P
+robability-Theory-and-Its-Applications\Notes.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
@@ -51,26 +60,26 @@ ecomposable) \OT1/cmr/m/n/10 and \OT1/cmr/m/it/10 sim-ple(indecomposable)
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Notes.aux) ) 
+{C:/Users/v-jianyz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+(C:\Users\v-jianyz\Documents\GitHub\StudyNotes\Mathematics\An-Introduction-to-P
+robability-Theory-and-Its-Applications\Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 235 strings out of 495028
- 2510 string characters out of 6181496
- 48878 words of memory out of 5000000
- 3518 multiletter control sequences out of 15000+600000
- 8895 words of font info for 31 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 23i,6n,17p,206b,187s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on Notes.pdf (1 page, 75571 bytes).
+ 237 strings out of 493921
+ 3241 string characters out of 3150079
+ 51031 words of memory out of 3000000
+ 3603 multiletter control sequences out of 15000+200000
+ 8895 words of font info for 31 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 23i,6n,17p,272b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/Tex/fonts/
+type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/Tex/fonts/type1/public/am
+sfonts/cm/cmbx12.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
+ Files/Tex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/Tex/font
+s/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Notes.pdf (1 page, 79887 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 22 compressed objects within 1 object stream
+ 30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
