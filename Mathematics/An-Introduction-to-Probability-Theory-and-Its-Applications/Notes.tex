@@ -3,10 +3,12 @@
 \title{\textbf{Study Notes}\\ \textit{An Introduction of Probability Theory and Its Applications}}
 \begin{document}
 	\maketitle
+	\tableofcontents
+	\newpage
 	\section{The Sample Space}
 		\subsection{The Empirical Background}
 			\paragraph{Events} Events are the results of experiments or obervations.
-			The events should be distinguished between \textit{compound(decomposable)} and \textit{simple(indecomposable) events}. A compound event is an aggregate of certain simple events.
+			The events should be distinguished between \textit{compound} (\textit{decomposable}) and \textit{simple} (\textit{indecomposable events}). A compound event is an aggregate of certain simple events.
 			\paragraph{Sample points} Sample points are just the simple events. Every indecomposable result of the (idealized) experiment is represented by one, and only one, sample point.
 			\paragraph{Sample Space} Sample space is the aggregate of all sample points.
 		\subsection{Examples}
@@ -31,6 +33,24 @@
 				\begin{enumerate}
 				\item We shall use the notation $A=0$ to express that the event $A$ contains no sample points. The zero must be interpreted in \textbf{a symbolic sense and not as the numeral}.
 				\item The event consisting of all points not contained in the event $A$ will be called the \textit{complementary event }(or \textit{negation}) and will be denoted by $A'$. In particular $\Omega ' = 0$.
-				\item With any two events $A$ and $B$ we can associate two new events defined by the conditions "\textit{both $A$ and $B$ occur}" and "\textit{either $A$ or $B$ or both occur}".These events will be denoted by $AB$ and $A\cup B$. 
+				\item With any two events $A$ and $B$ we can associate two new events defined by the conditions "\textit{both $A$ and $B$ occur}" and "\textit{either $A$ or $B$ or both occur}". These events will be denoted by $AB$ (intersection of $A$ and $B$) and $A\cup B$ (union of $A$ and $B$). If $A$ and $B$ exclude each other, then there are no points common to $A$ and $B$ and the event $AB$ is impossible; analytically this situation is described by the equation $AB=0$ which should be read "$A$ and $B$ are \textit{mutually exclusive}".
+				\item To every collection $A,B,C,\dots$ of events we define some notions as  follows.
+					\begin{itemize}
+					\item The aggregate of sample points which belong to all the given sets will be denoted by $ABC\dots$ and called the \textit{intersection} (or \textit{simultaneous realization}).
+					\item The aggregate of sample points which belong to at least one of the given sets will be denoted by $A\cup B\cup C\cup \dots$ and called the union (or realization of at least one).
+					\item The events $A,B,C,\dots$ are \textit{mutually exclusive} if no two have a point in common (any two of the events are mutually exclusive), that is, if $AB=0, AC=0, \dots, BC=0, \dots$.
+					\end{itemize}
+				\item The symbols $A\subset B$ and $B\supset A$ signify that every point of $A$ is contained in $B$; they are read, respectively, \textit{$A$ implies $B$} and \textit{$B$ is implied by $A$}. \textbf{If this is the case}, we shall also write $B-A$ instead of $BA'$ to denote the event that \textit{$B$ but not $A$ occurs}. The event $B-A$ contains all those points which are in $B$ but not in $A$. With this notation we can write $A'=\Omega-A$ and $A-A=0$.
+					\begin{itemize}
+					\item If $A$ and $B$ are mutually exclusive, then the occurrence of $A$ implies the non-occurrence of $B$ and vice versa. Thus $AB=0$ means the same as $A\subset B'$ and as $B\subset A'$.
+					\item The event $A-AB$ means the occurrence of $A$ bu not of the $A$ and $B$. Thus $A-AB=AB'$.
+					\end{itemize}
 				\end{enumerate} 
+		\subsection{Discrete Sample Spaces}
+			\paragraph{Discrete Sample Space} A sample space is called discrete if it contains only finitely many points or infinitely many points which can be arranged into a simple sequence $E_1,E_2\dots$. 
+			\paragraph{} The probabilities of events in discrete
+			sample spaces are obtained by mere additions, whereas in other spaces integrations are necessary.
+		\subsection{Probabilities in Discrete Sample Spaces: Preparations}
+		todo\dots
+		
 \end{document}

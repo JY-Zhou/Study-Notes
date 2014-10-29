@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.26)  28 OCT 2014 20:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.26)  29 OCT 2014 13:56
 entering extended mode
 **Notes.tex
 
@@ -53,54 +53,55 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 5.
 
-Overfull \hbox (26.41275pt too wide) in paragraph at lines 8--10
-\OT1/cmr/m/n/10 should be dis-tin-guished be-tween \OT1/cmr/m/it/10 com-pound(d
-ecomposable) \OT1/cmr/m/n/10 and \OT1/cmr/m/it/10 sim-ple(indecomposable)
- []
+(C:\Users\v-jianyz\Documents\GitHub\StudyNotes\Mathematics\An-Introduction-to-P
+robability-Theory-and-Its-Applications\Notes.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write3
+ [1
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+{C:/Users/v-jianyz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 20.
+
 ("C:\Program Files\Tex\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--18
-
- []
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 18.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--19
-
- []
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 20.
 
 Underfull \hbox (badness 10000) in paragraph at lines 20--20
 
  []
 
-[1
 
-{C:/Users/v-jianyz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 21--21
 
  []
 
-[2]
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+
+ []
+
+[2] [3] [4]
 (C:\Users\v-jianyz\Documents\GitHub\StudyNotes\Mathematics\An-Introduction-to-P
 robability-Theory-and-Its-Applications\Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 258 strings out of 493921
- 3567 string characters out of 3150079
- 53031 words of memory out of 3000000
- 3620 multiletter control sequences out of 15000+200000
+ 262 strings out of 493921
+ 3839 string characters out of 3150079
+ 55031 words of memory out of 3000000
+ 3621 multiletter control sequences out of 15000+200000
  9254 words of font info for 32 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 23i,6n,19p,347b,263s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23i,6n,19p,562b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/Tex/fonts/
 type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/Tex/fonts/type1/public/am
 sfonts/cm/cmbx12.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmbxt
@@ -108,12 +109,13 @@ i10.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pro
 gram Files/Tex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/Tex/f
 onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/Tex/fonts/type1/publi
 c/amsfonts/cm/cmr12.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Pro
-gram Files/Tex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/Tex/
-fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Notes.pdf (2 pages, 129445 bytes).
+r7.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
+ram Files/Tex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/Tex/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/Tex/fonts/type1/publi
+c/amsfonts/cm/cmti12.pfb>
+Output written on Notes.pdf (4 pages, 145523 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
