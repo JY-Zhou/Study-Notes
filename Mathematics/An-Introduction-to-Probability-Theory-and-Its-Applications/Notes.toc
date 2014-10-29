@@ -15,3 +15,5 @@
 \contentsline {paragraph}{Discrete Sample Space}{4}
 \contentsline {paragraph}{}{4}
 \contentsline {subsection}{\numberline {1.6}Probabilities in Discrete Sample Spaces: Preparations}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
