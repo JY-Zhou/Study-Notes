@@ -51,14 +51,25 @@
 			\paragraph{} The probabilities of events in discrete sample spaces are obtained by mere additions, whereas in other spaces integrations are necessary.
 		\subsection{Probabilities in Discrete Sample Spaces: Preparations}
 			\paragraph{} The notion of probability is based on an \textit{idealized model}. In a sense, no ideal models exist in reality. But in many applications, it is sufficiently accurate to describe reality and the idealized model can be extremely useful when the experiment is impossible to reconstruct.
-			\paragraph{} Here comes some interesting examples. When placing 3 distinguishable balls into 3 cells, there will be 27 distinguishable possibilities. It appears natural to assume that all sample points are \textit{equally probable}, that is, that each sample point has probability $\frac{1}{27}$. While the 3 balls are indistinguishable, there remain 27 different possibilities, even though only ten different forms are distinguishable. This consideration leads us to attribute the following probabilities to this ten points as following table.
-			\\ \textbf{Require an table....}
-			\\ However, in our case with $r=n=3$, Bose and Einstein showed that certain particles attribute probability $\frac{1}{10}$ to each of the ten sample points.
+			\paragraph{} Here comes some interesting examples. When placing 3 distinguishable balls into 3 cells, there will be 27 distinguishable possibilities. It appears natural to assume that all sample points are \textit{equally probable}, that is, that each sample point has probability $\frac{1}{27}$. If the 3 balls are indistinguishable, there remain 27 different possibilities, even though only ten different forms are distinguishable. This consideration leads us to attribute the following probabilities to this ten points as following table.
+			\tablename{name}
+			\\ However, in our case with $r=n=3$, Bose and Einstein showed that certain particles attribute equal probability $\frac{1}{10}$ to each of the ten sample points.
 			\paragraph{} These examples teach us not to rely too much on a priori arguments and to be prepared to accept new and unforeseen schemes.
 		\subsection{The Basic Definitions and Rules}
-			
-			
-			
+			\paragraph{Fundamental Convention} Given a discrete sample space $\Omega$ with sample points $E_1, E_2, \dots$, we shall assume that with each point $E_j$ there is associated a number, called the \textit{probability} of $E_j$ and denoted by $P\{E_j\}$. It is to be non-negative and such that $$P\{E_1\}+P\{E_2\}+\dots=1.$$ 
+			\paragraph{}Note that the point which probability is zero (which is impossible to occur) is not excluded. In discrete sample spaces, any sample point can be eliminated from the sample space. However, the numerical values of probabilities are not known in advance.
+			\paragraph{Definition} The probability $P\{A\}$ of any event $A$ is the sum of the probabilities of all sample point in it.
+			\paragraph{} For the sample space, $$P\{\Omega\}=1.$$ It follows that for any event $A$, $$0\leq P\{A\} \leq 1.$$ Consider now two arbitrary events $A_1$ and $A_2$. To compute the probability $P\{A_1\cup A_2\}$ that either $A_1$ or $A_2$ or both occur, we have to add the probabilities of all sample points contained either in $A_1$ or in $A_2$, but each point is to be counted only once. Therefore, $$P\{A_1\cup A_2\} \leq P\{A_1\}+P\{A_2\}.$$
+			\paragraph{Theorem} For any two events $A_1$ and $A_2$ the probability that either $A_1$ or $A_2$ or both occur is given by $$P\{A_1\cup A_2\} = P\{A_1\}+P\{A_2\}-P\{A_1A_2\}.$$ If $A_1A_2 = 0$, that is, if $A_1$ and $A_2$ are mutually exclusive, then the formula reduces to $$P\{A_1\cup A_2\} = P\{A_1\}+P\{A_2\}.$$ The probability $P\{A_1\cup A_2\cup \dots \cup A_n\}$ of the realization of at least one among $n$ events can be computed by a formula analogous to the formula before and will be discussed later. Thus for arbitrary events $A_1,A_2,\dots$ the inequality $$P\{A_1\cup A_2\cup \dots\} \leq P\{A_1\} + P\{A_2\} + \dots$$ holds (Occasionally it's referred to as \textit{Boole's inequality}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have $$P\{A_1\cup A_2\cup \dots\} = P\{A_1\} + P\{A_2\} + \dots$$
+			\paragraph{} Finally, the probabilities of all sample points in sample spaces should not be same. Although considering them sharing the same probability will simplify the problem, this assumption will be restricted almost entirely the study of games.
+		\subsection{Problems Solution}
+			\begin{enumerate}
+			\item
+			\end{enumerate}
+	\newpage
+	\section{Elements of Combinatorial Analysis}
+		\subsection{Preliminary}
+			todo\dots
 			
 		
 \end{document}
