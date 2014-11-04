@@ -1,4 +1,6 @@
 \documentclass{article}
+\usepackage{amsmath}
+\numberwithin{equation}{subsection}
 \author{Jianyu Zhou}
 \title{\textbf{Study Notes}\\ \textit{An Introduction of Probability Theory and Its Applications}}
 \begin{document}
@@ -106,7 +108,7 @@
 				\label{eq:1.7.7}
 				P\{A_1\cup A_2\cup \dots\} \leq P\{A_1\} + P\{A_2\} + \dots
 			\end{equation}
-			holds (Occasionally it's referred to as \textit{Boole's inequality}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have 
+			holds (Occasionally \ref{eq:1.7.7} referred to as \textit{Boole's inequality}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have 
 			\begin{equation}
 				\label{eq:1.7.8}
 				P\{A_1\cup A_2\cup \dots\} = P\{A_1\} + P\{A_2\} + \dots
@@ -114,7 +116,39 @@
 			\paragraph{} Finally, the probabilities of all sample points in sample spaces should not be same. Although considering them sharing the same probability will simplify the problem, this assumption will be restricted almost entirely the study of games.
 		\subsection{Problems Solution}
 			\begin{enumerate}
-			\item 
+			\item $P\{A\} = \frac{3}{5}$, $P\{B\} = \frac{3}{5}\times\frac{2}{4} + \frac{2}{5}\times\frac{3}{4} = \frac{3}{5}$ and $P\{C\}=\frac{3\times2}{20} = \frac{3}{10}$  
+			\item 6. With the number of points of $S_1, S_2, S_1\cup S_2$ are $12, 12, 18$ respectively, the number of points of $S_1S_2 = 12 + 12 - 18 = 6$. 
+			\item $P\{A_1\} = P\{A_2\} = P\{A_3\} = P\{A_4\} = \frac{3\times2\times1}{24} = \frac{1}{4}$, \\ $P\{A_1\cup A_2\}=\frac{3\times2\times1}{24} + \frac{2\times2\times1}{24} = \frac{5}{12}$, (the aggregate of the points which the first place is 1 and the points which the second place is 2 but the first place is not 1) \\ $P\{A_1A_2\} = \frac{2\times1}{24} = \frac{1}{12}$, \\
+			so, $P\{A_1\cup A_2\} = P\{A_1\} + P\{A_2\} - P\{A_1A_2\}$ is valid. \\ \dots 
+			\item The sample space is all of the outcomes tossing the coin for $N$ times, which contains $2^N$ sample points. Here $N$ is an infinite number. So, let $E_n$ denote the experiment ends after $n (n\geq2)$ tossing, and 
+			\begin{equation}
+				P\{E_n\} = \frac{2 \times 2^{N-n}}{2^n \times 2^{N-n}} = \frac{1}{2^{n-1}}.
+			\end{equation}
+			Note that $E_2, E_3,\dots,E_n,\dots$ are mutually exclusive, so 
+			\begin{equation}
+				\begin{aligned}
+					P\{A\} &= P\{E_2 \cup E_3 \cup E_4 \cup E_5\} \\
+					 &= P\{E_2\} + P\{E_3\} + P\{E_4\} + P\{E_5\} \\ 
+					 &= \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} = \frac{15}{16}.
+				\end{aligned}
+			\end{equation}
+			Similarly, with $k$ is an positive integer,
+			\begin{equation}
+				\begin{aligned}
+					P\{B\} &= P\{E_2 \cup E_4 \cup \dots \cup E_{2k} \cup \dots\} \\
+					&= P\{E_2\} + P\{E_4\} + \dots + P\{E_{2k}\} + \dots \\
+					&= \frac{1}{2} + \frac{1}{8} + \dots + \frac{1}{2^{2k-1}} + \dots \\
+					&=\sum_{k=1}^{\infty}\frac{1}{2^{2k-1}} = \lim_{k \to \infty}\frac{\frac{1}{2}(1-\frac{1}{4^k})}{1-\frac{1}{4}} = \frac{2}{3}
+				\end{aligned}
+			\end{equation}
+			\\ \textbf{Notes:} This solution is not totally correct. Although the answers are correct, the sample space is not corresponding to the description. The sample space should contain the two points $HH$ and $TT$ with probability $\frac{1}{4}$; the two points $HTT$ and $THH$ with probability $\frac{1}{8}$; and generally two point with probability $\frac{1}{2^n}$ with $n\geq2$. So, in conclusion, the sample points are the \textbf{outcomes} of the experiment and each point will have it \textbf{own's} probability.
+			\item $P\{Unity\} = 2\times(\frac{1}{4} + \frac{1}{8} + \dots + \frac{1}{2^k} + \dots) = 1.$ (Under the description the unity the points (*) is just the sample space.) \\Let $A,B,C$ denote the events that a, b or c wins respectively.  So,
+			\begin{equation}
+				\begin{aligned}
+					P\{A\} = P\{B\} &= \frac{1}{4} + \frac{1}{16} + \dots + \frac{1}{2^{2n}} + \dots \\ &= \sum_{n=1}^{\infty}\frac{1}{2^{2n}} = \lim_{n \to \infty}
+				\end{aligned}
+			\end{equation}
+			
 			\end{enumerate}
 	\newpage
 	\section{Elements of Combinatorial Analysis}
