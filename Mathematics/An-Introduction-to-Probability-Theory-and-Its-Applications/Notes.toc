@@ -26,5 +26,5 @@
 \contentsline {paragraph}{Theorem}{5}
 \contentsline {paragraph}{}{6}
 \contentsline {subsection}{\numberline {1.8}Problems Solution}{6}
-\contentsline {section}{\numberline {2}Elements of Combinatorial Analysis}{8}
-\contentsline {subsection}{\numberline {2.1}Preliminary}{8}
+\contentsline {section}{\numberline {2}Elements of Combinatorial Analysis}{9}
+\contentsline {subsection}{\numberline {2.1}Preliminary}{9}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.26)  4 NOV 2014 17:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.26)  5 NOV 2014 20:08
 entering extended mode
 **Notes.tex
 
@@ -143,13 +143,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--24
 
  []
 
-[2] [3] [4] [5] [6] [7] [8]
+[2] [3] [4] [5] [6]
+Overfull \hbox (5.95396pt too wide) in paragraph at lines 145--146
+\OT1/cmr/m/n/10 that if no-body win the game, the loop shall be ei-ther $\OML/c
+mm/m/it/10 acbacb [] $ \OT1/cmr/m/n/10 or $\OML/cmm/m/it/10 bcabca [] $\OT1/cmr
+/m/n/10 .
+ []
+
+[7]
+Overfull \hbox (5.18088pt too wide) in paragraph at lines 165--166
+[]\OT1/cmr/m/n/10 It is ob-vi-ous that $\OML/cmm/m/it/10 A[]A[]A[] \OT1/cmr/m/n
+/10 = \OML/cmm/m/it/10 A[]A[]A[]A[] \OMS/cmsy/m/n/10  \OML/cmm/m/it/10 A[]$ \O
+T1/cmr/m/n/10 and $\OML/cmm/m/it/10 A[]A[]A[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/1
+0 A[]A[]A[]A[] \OMS/cmsy/m/n/10 $
+ []
+
+
+Overfull \hbox (11.87173pt too wide) in paragraph at lines 167--168
+[]\OT1/cmr/m/n/10 (a) $\OML/cmm/m/it/10 AB$ \OT1/cmr/m/n/10 con-tains the point
+s $(1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (1
+\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 4)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (1\OML/
+cmm/m/it/10 ; \OT1/cmr/m/n/10 6)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2\OML/cmm/m
+/it/10 ; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (4\OML/cmm/m/it/1
+0 ; \OT1/cmr/m/n/10 1)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (6\OML/cmm/m/it/10 ; \
+OT1/cmr/m/n/10 1)$, so $\OML/cmm/m/it/10 P\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 AB
+\OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 =$
+ []
+
+[8] [9]
 (C:\Users\v-jianyz\Documents\GitHub\Study-Notes\Mathematics\An-Introduction-to-
 Probability-Theory-and-Its-Applications\Notes.aux) ) 
 Here is how much of TeX's memory you used:
  879 strings out of 493921
  10656 string characters out of 3150079
- 68028 words of memory out of 3000000
+ 70028 words of memory out of 3000000
  4219 multiletter control sequences out of 15000+200000
  10382 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -166,9 +193,9 @@ ogram Files/Tex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/Tex/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Tex/fonts/type1/publ
 ic/amsfonts/cm/cmsy7.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/c
 mti10.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Notes.pdf (8 pages, 186171 bytes).
+Output written on Notes.pdf (9 pages, 193686 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

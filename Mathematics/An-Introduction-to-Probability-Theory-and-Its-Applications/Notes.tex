@@ -116,7 +116,7 @@
 			\paragraph{} Finally, the probabilities of all sample points in sample spaces should not be same. Although considering them sharing the same probability will simplify the problem, this assumption will be restricted almost entirely the study of games.
 		\subsection{Problems Solution}
 			\begin{enumerate}
-			\item $P\{A\} = \frac{3}{5}$, $P\{B\} = \frac{3}{5}\times\frac{2}{4} + \frac{2}{5}\times\frac{3}{4} = \frac{3}{5}$ and $P\{C\}=\frac{3\times2}{20} = \frac{3}{10}$  
+			\item (a) $P\{A\} = \frac{3}{5}$, \\ (b) $P\{B\} = \frac{3}{5}\times\frac{2}{4} + \frac{2}{5}\times\frac{3}{4} = \frac{3}{5}$ \\ (c) $P\{C\}=\frac{3\times2}{20} = \frac{3}{10}$  
 			\item 6. With the number of points of $S_1, S_2, S_1\cup S_2$ are $12, 12, 18$ respectively, the number of points of $S_1S_2 = 12 + 12 - 18 = 6$. 
 			\item $P\{A_1\} = P\{A_2\} = P\{A_3\} = P\{A_4\} = \frac{3\times2\times1}{24} = \frac{1}{4}$, \\ $P\{A_1\cup A_2\}=\frac{3\times2\times1}{24} + \frac{2\times2\times1}{24} = \frac{5}{12}$, (the aggregate of the points which the first place is 1 and the points which the second place is 2 but the first place is not 1) \\ $P\{A_1A_2\} = \frac{2\times1}{24} = \frac{1}{12}$, \\
 			so, $P\{A_1\cup A_2\} = P\{A_1\} + P\{A_2\} - P\{A_1A_2\}$ is valid. \\ \dots 
@@ -124,7 +124,7 @@
 			\begin{equation}
 				P\{E_n\} = \frac{2 \times 2^{N-n}}{2^n \times 2^{N-n}} = \frac{1}{2^{n-1}}.
 			\end{equation}
-			Note that $E_2, E_3,\dots,E_n,\dots$ are mutually exclusive, so 
+			Note that $E_2, E_3,\dots,E_n,\dots$ are mutually exclusive. \\(a) So 
 			\begin{equation}
 				\begin{aligned}
 					P\{A\} &= P\{E_2 \cup E_3 \cup E_4 \cup E_5\} \\
@@ -132,23 +132,43 @@
 					 &= \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} = \frac{15}{16}.
 				\end{aligned}
 			\end{equation}
-			Similarly, with $k$ is an positive integer,
+			\\(b) Similarly, with $k$ is an positive integer,
 			\begin{equation}
 				\begin{aligned}
 					P\{B\} &= P\{E_2 \cup E_4 \cup \dots \cup E_{2k} \cup \dots\} \\
 					&= P\{E_2\} + P\{E_4\} + \dots + P\{E_{2k}\} + \dots \\
 					&= \frac{1}{2} + \frac{1}{8} + \dots + \frac{1}{2^{2k-1}} + \dots \\
-					&=\sum_{k=1}^{\infty}\frac{1}{2^{2k-1}} = \lim_{k \to \infty}\frac{\frac{1}{2}(1-\frac{1}{4^k})}{1-\frac{1}{4}} = \frac{2}{3}
+					&=\sum_{k=1}^{\infty}\frac{1}{2^{2k-1}} = \lim_{k \to \infty}\frac{\frac{1}{2}\left(1-\frac{1}{4^k}\right)}{1-\frac{1}{4}} = \frac{2}{3}
 				\end{aligned}
 			\end{equation}
 			\\ \textbf{Notes:} This solution is not totally correct. Although the answers are correct, the sample space is not corresponding to the description. The sample space should contain the two points $HH$ and $TT$ with probability $\frac{1}{4}$; the two points $HTT$ and $THH$ with probability $\frac{1}{8}$; and generally two point with probability $\frac{1}{2^n}$ with $n\geq2$. So, in conclusion, the sample points are the \textbf{outcomes} of the experiment and each point will have it \textbf{own's} probability.
-			\item $P\{Unity\} = 2\times(\frac{1}{4} + \frac{1}{8} + \dots + \frac{1}{2^k} + \dots) = 1.$ (Under the description the unity the points (*) is just the sample space.) \\Let $A,B,C$ denote the events that a, b or c wins respectively.  So,
+			\item (a) $P\{Unity\} = 2\times(\frac{1}{4} + \frac{1}{8} + \dots + \frac{1}{2^k} + \dots) = 1.$ (Under the description the unity the points (*) is just the sample space.) \\ (b) Let $A,B,C$ denote the events that a, b or c wins respectively. Note that if nobody win the game, the loop shall be either $acbacb\dots$ or $bcabca\dots$. So, a, b winning the game is the either one of the points when there are $3n-1$ or $3n+1$ characters $(n = 1,2,3\dots)$, i.e.
 			\begin{equation}
 				\begin{aligned}
-					P\{A\} = P\{B\} &= \frac{1}{4} + \frac{1}{16} + \dots + \frac{1}{2^{2n}} + \dots \\ &= \sum_{n=1}^{\infty}\frac{1}{2^{2n}} = \lim_{n \to \infty}
+					P\{A\} = P\{B\} &= \frac{1}{4} + \frac{1}{16} + \dots + \frac{1}{2^{3n-1}} + \frac{1}{2^{3n+1}} + \dots \\ &= \sum_{n=1}^{\infty}\left(\frac{1}{2^{3n-1}}+\frac{1}{2^{3n+1}}\right)\\ &= \lim_{n \to \infty}\frac{\frac{1}{4}\left(1-\frac{1}{8^n}\right)}{1-\frac{1}{8}}+\lim_{n \to \infty}\frac{\frac{1}{16}\left(1-\frac{1}{8^n}\right)}{1-\frac{1}{8}}\\ &= \frac{5}{14}
 				\end{aligned}
 			\end{equation}
-			
+			and c winning the game is the both points when there are $3n$ characters $(n=1,2,3\dots)$, i.e.
+			\begin{equation}
+				\begin{aligned}
+					P\{C\} &= 2 \times \left(\frac{1}{8} + \frac{1}{64} + \dots + \frac{1}{2^{3n}} + \dots \right)\\ &= \sum_{n=1}^{\infty}{\frac{2}{2^{3n}}} \\ &= \lim_{n \to \infty}\frac{\frac{2}{8}\left(1-\frac{1}{8^n}\right)}{1-\frac{1}{8}} = \frac{2}{7}
+				\end{aligned}
+			\end{equation}
+			\\ (c) If no decision is reached at or before the $k$th turn, the game must be end after the $k$th turn. So we can consider the complementary event, i.e.
+			\begin{equation}
+				\begin{aligned}
+					P\{D\} &= 1-P\{D'\}\\ &=1- 2 \times \left(\frac{1}{2^{k+1}} + \frac{1}{2^{k+2}} + \dots \right)\\ &= 1- \sum_{n=k}^{\infty}{\frac{1}{2^{n}}} \\ &= \lim_{n \to \infty}\frac{\frac{1}{2^k}\left(1-\frac{1}{2^n}\right)}{1-\frac{1}{2}} = \frac{1}{2^{k-1}}
+				\end{aligned}
+			\end{equation}
+			\textbf{Note: } This is a good problem, and please review this problem in detail. It tells me that before we calculate the probability of the event, we should \textbf{determine what the sample space is and the probability distribution of the sample points are in advance}. Then we should \textbf{analyze the specific sample points which are included in the event strictly}. Finally, \textbf{take more care about the complementary events and whether the events are mutually exclusive}. This is the correct way to calculate the probability of the event.
+			\item \textbf{?}
+			\item It is obvious that $A_1A_2A_3 = A_1A_2A_3A_4 \subset A_4$ and $A_1A_2A_3' = A_1A_2A_3'A_4' \subset A_4'$.
+			\item (a) It is obvious that $S_1S_2$ and $D_3$ are mutually exclusive, so $S_1S_2D_3 = 0$. \\ (b) Because there are 3 balls, $S_1D_2 = S_1D_2E_3 \subset E_3$ holds. \\ (c) There are only 3 balls, so $E_3 = S_1D_2 \cup S_2D_1$ and $(S_1D_2)(S_2D_1) = 0$. Then $E_3-D_2S_1 \supset S_2D_1$ holds.
+			\item (a) $AB$ contains the points $(1,2), (1,4), (1,6), (2,1), (4,1), (6,1)$, so $P\{AB\} = \frac{1}{6}$. \\ (b) $P\{A \cup B\} = P\{A\} + P\{B\} - P\{AB\} = \frac{1}{2} + \frac{11}{36} - \frac{1}{6} = \frac{23}{36}$. \\ (c) $P\{AB'\} = \frac{12}{36} = \frac{1}{3}$.
+			\item (a) The husband and wife are both older than 40 and the husband is older than wife. \\ (b) The husband is older than 40 but younger than wife. \\ (c) The husband and wife are both older than 40 and the husband is younger than wife.
+			\item $AC'$ indicates that the husband is older than 40 but the wife is younger than 40, so the husband must be older than wife and $B$ holds.
+			\item (a) 0. (b) 0. (c) 4. (d) 2. (e) 1. (f) 1. (g) 0.
+			\item 
 			\end{enumerate}
 	\newpage
 	\section{Elements of Combinatorial Analysis}
