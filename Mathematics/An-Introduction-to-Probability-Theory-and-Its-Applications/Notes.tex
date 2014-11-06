@@ -115,6 +115,7 @@
 			\end{equation}
 			\paragraph{} Finally, the probabilities of all sample points in sample spaces should not be same. Although considering them sharing the same probability will simplify the problem, this assumption will be restricted almost entirely the study of games.
 		\subsection{Problems Solution}
+			\paragraph{} These problem are very classic and make me more clear about some notions and enhance what I have learn. Pay more attention to problem 4, 5, 6, 14, 15, 16.
 			\begin{enumerate}
 			\item (a) $P\{A\} = \frac{3}{5}$, \\ (b) $P\{B\} = \frac{3}{5}\times\frac{2}{4} + \frac{2}{5}\times\frac{3}{4} = \frac{3}{5}$ \\ (c) $P\{C\}=\frac{3\times2}{20} = \frac{3}{10}$  
 			\item 6. With the number of points of $S_1, S_2, S_1\cup S_2$ are $12, 12, 18$ respectively, the number of points of $S_1S_2 = 12 + 12 - 18 = 6$. 
@@ -169,10 +170,17 @@
 			\item $AC'$ indicates that the husband is older than 40 but the wife is younger than 40, so the husband must be older than wife and $B$ holds.
 			\item (a) 0. (b) 0. (c) 4. (d) 2. (e) 1. (f) 1. (g) 0.
 			\item The verifications are easy to think up considering the description of the problem.
-			\item The solution can be got by drawing some figures easily. Here I copy these formulas to enhance the impression. 
-			\\ (a) $(A\cup B)' = A'B'$ \\ (b) $(A\cup B)-B = A-AB = AB'$ \\ (c) $AA = A\cup A = A$ \\ (d) $(A-AB)\cup B = A \cup B$ \\ (e) $(A\cup B) - AB = AB' \cup A'B$ \\ (f) $A'\cup B' = (AB)'$ \\ (g) $(A\cup B)C = AC\cup BC$
-			\item (a) $(A\cup B)(A\cup B') =(A\cup B)A \cup (A\cup B)B'=AA\cup BA\cup AB' \cup BB' = A \cup AB' = A$ \\ (b) $(A\cup B)(A'\cup B)(A\cup B') = B(A\cup B') = BA \cup BB' = AB$ \\ (c) $(A\cup B)(B\cup C) = AB \cup BB\cup AC\cup BC = AB\cup AC\cup BC$
-			\item True:  \\False: 
+			\item The solution can be got by drawing some figures easily. Here I copy these formulas to enhance the impression. \\ (a) $(A\cup B)' = A'B'$ \\ (b) $(A\cup B)-B = A-AB = AB'$ \\ (c) $AA = A\cup A = A$ \\ (d) $(A-AB)\cup B = A \cup B$ \\ (e) $(A\cup B) - AB = AB' \cup A'B$ \\ (f) $A'\cup B' = (AB)'$ \\ (g) $(A\cup B)C = AC\cup BC$
+			\item (a) $(A\cup B)(A\cup B') =(A\cup B)A \cup (A\cup B)B'=AA\cup BA\cup AB' \cup BB' = A \cup AB' = A$ \\ (b) $(A\cup B)(A'\cup B)(A\cup B') = B(A\cup B') = BA \cup BB' = AB$ \\ (c) $(A\cup B)(B\cup C) = AB \cup BB\cup AC\cup BC = B\cup AC\cup BC = B \cup AC$ \\ \textbf{Notes: } $AB \subset A $, $AB \subset B$. Do not confuse.
+			\item True: (c), (d), (e), (f), (h), (i), (k), (l)\\ False: \\ (a) The equation will be correct only if $C\subset B$. \\ (b) When $AB \not= 0, AC = 0, BC = 0$ the equation is invalid. \\  (g) If $AB\not=0$, the equation is invalid. It should be $(A\cup B)-A = A'B$. \\ (j) Totally wrong. (k) is the correct version. \\ \textbf{Notes: } In this book, $B-C$ is valid only when $C \subset B$.
+			\item (a) $AB'C'$ \\ (b) $ABC'$ \\ (c) $ABC$ \\ (d) $A\cup B\cup C$ \\ (e) $AB\cup AC\cup BC$ \\ (f) $AB'C'\cup A'BC'\cup A'B'C$ \\ (g) $ABC'\cup AB'C\cup A'BC$ \\ (h) $A'B'C'$ \\ (i) $(ABC)'$
+			\item $A\cup B\cup C = A\cup(B-AB)\cup(C-AC\cup BC) = A\cup A'B\cup A'B'C$
+			\item $A, B-AB$ and $C-AC\cup BC$ are mutually exclusive, so 
+			\begin{equation}
+				\begin{aligned}
+					P\{A\cup B\cup C\} &= P\{A\} + P\{A'B\} + P\{A'B'C\} \\ &= P\{A\} + P\{B\} - P\{AB\} + P\{C\} - P\{AC\cup BC\} \\ &= P\{A\} + P\{B\} - P\{AB\} + P\{C\} \\ & - (P\{AC\} + P\{BC\} - P\{ABC\}) \\ &= P\{A\} + P\{B\} + P\{C\} - P\{AB\} - P\{AC\} - P\{BC\} \\& + P\{ABC\}
+				\end{aligned}
+			\end{equation}
 			\end{enumerate}
 	\newpage
 	\section{Elements of Combinatorial Analysis}
