@@ -40,6 +40,9 @@
 \contentsline {paragraph}{}{11}
 \contentsline {paragraph}{Corollary. }{11}
 \contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {2.3}Examples}{11}
 \contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{12}
 \contentsline {section}{\numberline {4}Combination of Events}{13}
 \contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{14}

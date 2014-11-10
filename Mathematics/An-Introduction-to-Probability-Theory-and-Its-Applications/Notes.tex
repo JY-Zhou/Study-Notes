@@ -191,23 +191,34 @@
 			\paragraph{Multiplets.} Given $n_1$ elements $a_1,\dots,a_{n_1}$ and $n_2$ elements $b_1,\dots,b_{n_2}$, etc., up to $n_r$ elements $x_1,\dots,x_{n_r}$; it is possible to form $n_1n_2\dots n_r$ ordered $r$-tuples $(a_{j_1}, b_{j_2}, \dots, x_{j_r})$ containing one element of each kind.
 			\paragraph{} Many applications are based on the following reformulation of the last theorem: $r$ successive selections (decisions) with exactly $n_k$ choices possible at the $k$th step can produce a total of $n_1n_2\dots n_r$ different results.
 		\subsection{Ordered Samples}
-			\paragraph{Ordered Sample. } Consider the set of $n$ elements $a_1, a_2,\dots, a_n$. Any ordered arrangement $a_{j_1}, a_{j_2}, \dots, a_{j_r}$ of $r$ symbols is call an \textit{ordered sample of size $r$} drawn from the set.
+			\paragraph{Ordered Sample. } Consider the population (set) of $n$ elements $a_1, a_2,\dots, a_n$. Any ordered arrangement $a_{j_1}, a_{j_2}, \dots, a_{j_r}$ of $r$ symbols is call an \textit{ordered sample of size $r$} drawn from the population.
 			\paragraph{} Here two procedures are possible, \textit{sampling with replacement} and \textit{sampling without replacement}.
 			\begin{itemize}
-			\item \textbf{Sampling with replacement}. Here a selection is made from the entire set, so that the same element can be drawn more than once. The samples are then arrangements in which repetitions are permitted. \\ In this case, each of the $r$ element can be chosen in $n$ ways. The number of possible samples is therefore $n^r$, as can be seen with theorem with $n_1 = n_2 = \dots = n$.
-			\item \textbf{Sampling without replacement}. Here an element once chosen is removed from the set, so that the sample becomes an arrangement without repetitions. \\ In this case, $r$ cannot exceed $n$. We have $n$ possible choices for the first element, but only $n-1$ for the second, $n-2$ for the third, etc., and so there are $n(n-1)\dots (n-r+1)$choices in all. This appears so often and it is convenient to introduce the notation 
+			\item \textbf{Sampling with replacement}. Here a selection is made from the entire population, so that the same element can be drawn more than once. The samples are then arrangements in which repetitions are permitted. \\ In this case, each of the $r$ element can be chosen in $n$ ways. The number of possible samples is therefore $n^r$, as can be seen with theorem with $n_1 = n_2 = \dots = n$.
+			\item \textbf{Sampling without replacement}. Here an element once chosen is removed from the population, so that the sample becomes an arrangement without repetitions. \\ In this case, $r$ cannot exceed $n$. We have $n$ possible choices for the first element, but only $n-1$ for the second, $n-2$ for the third, etc., and so there are $n(n-1)\dots (n-r+1)$ choices in all. This appears so often and it is convenient to introduce the notation 
 			\begin{equation}
 				(n)_r = n(n-1)\dots (n-r+1).
 			\end{equation}
 			Clearly $(n)_r = 0$ for integers $r, n$ such that $r > n$.
 			\end{itemize}			
-			\paragraph{Theorem. } For a set of $n$ elements and a prescribed sample size $r$, there exist $n^r$ different samples with replacement and $(n)_r$ samples without replacement.			
+			\paragraph{Theorem. } For a population of $n$ elements and a prescribed sample size $r$, there exist $n^r$ different samples with replacement and $(n)_r$ samples without replacement.			
 			\paragraph{} We note the special case where $r=n$. $n$ elements $a_1,\dots,a_n$ can be ordered in $(n)_n = n(n-1)\dots2\times1$ different ways. Instead of $(n)_n$ we write $n!$ which is the more usual notion.
 			\paragraph{Corollary. } The number of different ordering of $n$ elements is
 			\begin{equation}
 				n! = n(n-1)\dots 2\times 1.
 			\end{equation}
-			\paragraph{} 
+			\paragraph{} Whenever we speak of \textit{random samples} of fixed size $r$, the adjective \textit{random} is to imply that all possible sample points have the \textit{same probability}, namely, $n^{-r}$ in sampling with replacement and $\frac{1}{(n)_r}$ without replacement. If $n \gg r$, the ratio $\frac{(n)_r}{n^r}$ is near unity. This leads us to expect that, for large populations and relatively small samples, two ways of sampling are practically equivalent.
+			\paragraph{} In sampling without replacement the probability for any fixed element of the population to be include in a random sample of size $r$ is
+			\begin{equation}
+				1-\frac{(n-1)_r}{(n)_r} = 1-\frac{n-r}{n} = \frac{r}{n}
+			\end{equation}
+			The complementary event is to remove the fixed element from the population. This equation also indicates that no matter when the element will be chosen, the probability for any fixed element being chosen is always $\frac{r}{n}$.
+			\paragraph{} In sampling with replacement the probability that an element be included at least once is
+			\begin{equation}
+				1 - {\left( 1 - \frac{1}{n} \right)}^r
+			\end{equation}
+		\subsection{Examples}
+			
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
