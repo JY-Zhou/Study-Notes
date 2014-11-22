@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.26)  12 NOV 2014 13:07
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.10.25)  22 NOV 2014 06:55
 entering extended mode
 **Notes.tex
 
-(C:\Users\v-jianyz\Documents\GitHub\Study-Notes\Mathematics\An-Introduction-to-
-Probability-Theory-and-Its-Applications\Notes.tex
+(E:\Github\Study-Notes\Mathematics\An-Introduction-to-Probability-Theory-and-It
+s-Applications\Notes.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -15,9 +15,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("C:\Program Files\Tex\tex\latex\base\article.cls"
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\Tex\tex\latex\base\size10.clo"
+("D:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -32,24 +32,24 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\Tex\tex\latex\amsmath\amsmath.sty"
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\Tex\tex\latex\amsmath\amstext.sty"
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\Tex\tex\latex\amsmath\amsgen.sty"
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-("C:\Program Files\Tex\tex\latex\amsmath\amsbsy.sty"
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen104
 )
-("C:\Program Files\Tex\tex\latex\amsmath\amsopn.sty"
+("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -90,8 +90,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(C:\Users\v-jianyz\Documents\GitHub\Study-Notes\Mathematics\An-Introduction-to-
-Probability-Theory-and-Its-Applications\Notes.aux)
+(E:\Github\Study-Notes\Mathematics\An-Introduction-to-Probability-Theory-and-It
+s-Applications\Notes.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
@@ -105,15 +105,14 @@ LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 
-(C:\Users\v-jianyz\Documents\GitHub\Study-Notes\Mathematics\An-Introduction-to-
-Probability-Theory-and-Its-Applications\Notes.toc)
+(E:\Github\Study-Notes\Mathematics\An-Introduction-to-Probability-Theory-and-It
+s-Applications\Notes.toc)
 \tf@toc=\write3
  [1
 
-{C:/Users/v-jianyz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
-
-("C:\Program Files\Tex\tex\latex\base\omscmr.fd"
+ ("D:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -176,29 +175,30 @@ Overfull \hbox (16.57628pt too wide) in paragraph at lines 227--227
  []
 
 [12] [13] [14]
-(C:\Users\v-jianyz\Documents\GitHub\Study-Notes\Mathematics\An-Introduction-to-
-Probability-Theory-and-Its-Applications\Notes.aux) ) 
+(E:\Github\Study-Notes\Mathematics\An-Introduction-to-Probability-Theory-and-It
+s-Applications\Notes.aux) ) 
 Here is how much of TeX's memory you used:
  879 strings out of 493921
- 10656 string characters out of 3150079
+ 10550 string characters out of 3147278
  70028 words of memory out of 3000000
  4219 multiletter control sequences out of 15000+200000
  10382 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,10n,20p,589b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/Tex/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/Tex/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmbx
-ti10.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
-ogram Files/Tex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/Tex
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/Tex/fonts/type1/pub
-lic/amsfonts/cm/cmmi7.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/
-cmr10.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pr
-ogram Files/Tex/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/Tex/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/Tex/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb><C:/Program Files/Tex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Pro
-gram Files/Tex/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+<D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10
+.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:
+/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><D:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on Notes.pdf (14 pages, 216571 bytes).
 PDF statistics:
  108 PDF objects out of 1000 (max. 8388607)
