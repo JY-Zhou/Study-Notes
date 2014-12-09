@@ -52,7 +52,7 @@
 			\paragraph{} The probabilities of events in discrete sample spaces are obtained by mere additions, whereas in other spaces integrations are necessary.
 		\subsection{Probabilities in Discrete Sample Spaces: Preparations}
 			\paragraph{} The notion of probability is based on an \textit{idealized model}. In a sense, no ideal models exist in reality. But in many applications, it is sufficiently accurate to describe reality and the idealized model can be extremely useful when the experiment is impossible to reconstruct.
-			\paragraph{} Here comes some interesting examples. When placing 3 distinguishable balls into 3 cells, there will be 27 distinguishable possibilities. It appears natural to assume that all sample points are \textit{equally probable}, that is, that each sample point has probability $\frac{1}{27}$. If the 3 balls are indistinguishable, there remain 27 different possibilities, even though only ten different forms are distinguishable. This consideration leads us to attribute the following probabilities to this ten points as following Table \ref{1.6:Table1}.
+			\paragraph{} Here comes some interesting examples. When placing 3 distinguishable balls into 3 cells, there will be 27 distinguishable possibilities. It appears natural to assume that all sample points are \textit{equally probable}, that is, that each sample point has probability $\frac{1}{27}$. If the 3 balls are indistinguishable, there remain 27 different possibilities, even though only ten different forms are distinguishable. This consideration leads us to attribute the following probabilities to this ten points as following Table \eqref{1.6:Table1}.
 			\begin{table}
 				\begin{center}
 					\begin{tabular} {| c | c | c | c |}
@@ -69,7 +69,7 @@
 				\end{center}
 			\end{table}
 			However, in our case with $r=n=3$, Bose and Einstein showed that certain particles attribute equal probability $\frac{1}{10}$ to each of the ten sample points.
-			\paragraph{} These examples teach us not to rely too much on a priori arguments and to be prepared to accept new and unforeseen schemes.
+			\paragraph{} These examples teach us not to \textbf{rely too much on a priori arguments and to be prepared to accept new and unforeseen schemes}.
 		\subsection{The Basic Definitions and Rules}
 			\paragraph{Fundamental Convention} Given a discrete sample space $\Omega$ with sample points $E_1, E_2, \dots$, we shall assume that with each point $E_j$ there is associated a number, called the \textit{probability} of $E_j$ and denoted by $P\{E_j\}$. It is to be non-negative and such that
 			\begin{equation}
@@ -103,12 +103,12 @@
 				\label{eq:1.7.6}
 				P\{A_1\cup A_2\} = P\{A_1\}+P\{A_2\}.
 			\end{equation}			
-			The probability $P\{A_1\cup A_2\cup \dots \cup A_n\}$ of the realization of at least one among $n$ events can be computed by a formula analogous to the Formula \ref{eq:1.7.5} and will be discussed later. For arbitrary events $A_1,A_2,\dots$ the inequality
+			The probability $P\{A_1\cup A_2\cup \dots \cup A_n\}$ of the realization of at least one among $n$ events can be computed by a formula analogous to the Formula \eqref{eq:1.7.5} and will be discussed later. For arbitrary events $A_1,A_2,\dots$ the inequality
 			\begin{equation}
 				\label{eq:1.7.7}
 				P\{A_1\cup A_2\cup \dots\} \leq P\{A_1\} + P\{A_2\} + \dots
 			\end{equation}
-			holds (Occasionally \ref{eq:1.7.7} referred to as \textit{Boole's inequality}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have 
+			holds (Occasionally \eqref{eq:1.7.7} referred to as \textit{Boole's inequality}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have 
 			\begin{equation}
 				\label{eq:1.7.8}
 				P\{A_1\cup A_2\cup \dots\} = P\{A_1\} + P\{A_2\} + \dots
@@ -212,7 +212,7 @@
 			\begin{equation}
 				1-\frac{(n-1)_r}{(n)_r} = 1-\frac{n-r}{n} = \frac{r}{n}
 			\end{equation}
-			The complementary event is to remove the fixed element from the population. This equation also indicates that no matter when the element will be chosen, the probability for any fixed element being chosen is always $\frac{r}{n}$.
+			The complementary event is the probability that the fixed element is not chosen. This equation also indicates that no matter when the element will be chosen, the probability for any fixed element being chosen is always $\frac{r}{n}$.
 			\paragraph{} In sampling with replacement the probability that an element be included at least once is
 			\begin{equation}
 				1 - {\left( 1 - \frac{1}{n} \right)}^r
@@ -220,8 +220,27 @@
 		\subsection{Examples}
 			\paragraph{} This section concerns the probability of the event that in the sample no element appears twice from a random sample of size $r$ with replacement is taken from a population of $n$ elements. According to the previous section, there are $n^r$ different samples in all, of which $(n)_r$ satisfy the stipulated condition. Assuming all arrangements have equal probability, the probability is 
 			\begin{equation}
+				\label{eq:2.3.1}
 				p = \frac{(n)_r}{n^r}
 			\end{equation}
+			\paragraph{} Since sometimes it's hard to calculate the exact value of formula \eqref{eq:2.3.1}. Here comes two good numerical approximation to $p$. Here we deduce \eqref{eq:2.3.1} into following form.
+			\begin{equation}
+				\label{eq:2.3.2}
+				p = \frac{(n)_r}{n^r} = \left(1-\frac{1}{n}\right)\left(1-\frac{2}{n}\right)\dots\left(1-\frac{r-1}{n}\right)
+			\end{equation} 
+			When $r$ is small, we can neglect all cross products and have in approximation
+			\begin{equation}
+				\label{eq:2.3.3}
+				p \approx 1-\frac{1+2+\dots+(r-1)}{n} = 1-\frac{r(r-1)}{2n}
+			\end{equation}
+			For larger $r$ we obtain a much better approximation by passing to logarithms. For small positive $x$ we have $\ln(1-x)\approx-x$, and thus from \eqref{eq:2.3.2}
+			\begin{equation}
+				\label{eq:2.3.4}
+				\begin{aligned}
+					\ln p &= \ln \left(1-\frac{1}{n}\right)+\ln \left(1-\frac{2}{n}\right)+\dots+\ln \left(1-\frac{r-1}{n}\right)\\ &\approx-\frac{1+2+\dots+(r-1)}{n} = -\frac{r(r-1)}{2n}
+				\end{aligned}			
+			\end{equation}
+		\subsection{Subpopulations and partitions}
 			
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
