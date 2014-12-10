@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.9)  9 DEC 2014 22:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.9)  10 DEC 2014 11:21
 entering extended mode
 **Notes.tex
 
@@ -170,22 +170,22 @@ OT1/cmr/m/n/10 1)$, so $\OML/cmm/m/it/10 P\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 AB
 \OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 =$
  []
 
-[8] [9] [10] [11] [12]
-Overfull \hbox (16.57628pt too wide) in paragraph at lines 246--246
+[8] [9] [10] [11] [12] [13]
+Overfull \hbox (16.57628pt too wide) in paragraph at lines 266--266
 []\OT1/cmr/bx/n/14.4 Fluctuations in Coin Toss-ing and Ran-dom Walks 
  []
 
-[13] [14] [15]
+[14] [15] [16]
 (E:\Github\Study-Notes\Mathematics\Probabilty-and-Statistic\An-Introduction-to-
 Probability-Theory-and-Its-Applications\Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 883 strings out of 493921
- 10815 string characters out of 3147279
+ 886 strings out of 493921
+ 10845 string characters out of 3147279
  70028 words of memory out of 3000000
- 4223 multiletter control sequences out of 15000+200000
+ 4226 multiletter control sequences out of 15000+200000
  10382 words of font info for 37 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,10n,20p,591b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,10n,20p,606b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
@@ -201,9 +201,9 @@ ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on Notes.pdf (15 pages, 218806 bytes).
+Output written on Notes.pdf (16 pages, 222570 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

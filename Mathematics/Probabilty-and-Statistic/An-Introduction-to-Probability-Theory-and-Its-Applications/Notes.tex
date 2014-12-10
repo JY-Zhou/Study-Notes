@@ -233,7 +233,7 @@
 				\label{eq:2.3.3}
 				p \approx 1-\frac{1+2+\dots+(r-1)}{n} = 1-\frac{r(r-1)}{2n}
 			\end{equation}
-			For larger $r$ we obtain a much better approximation by passing to logarithms. For small positive $x$ we have $\ln(1-x)\approx-x$, and thus from \eqref{eq:2.3.2}
+			For larger $r$ (still stipulate $r\ll n$) we obtain a much better approximation by passing to logarithms. For small positive $x$ we have $\ln(1-x)\approx-x$, and thus from \eqref{eq:2.3.2}
 			\begin{equation}
 				\label{eq:2.3.4}
 				\begin{aligned}
@@ -241,7 +241,27 @@
 				\end{aligned}			
 			\end{equation}
 		\subsection{Subpopulations and partitions}
-			
+			\paragraph{} As before, we use the term population of size $n$ to denote an aggregate of $n$ elements without regard to their order. Now consider a subpopulation of size $r$ of a given population consisting of $n$ elements. Since $r$ elements can be numbered in $r!$ different ways, it follows that there are exactly $r!$ times as many samples as there are subpopulations of size $r$. The number of subpopulations of size $r$ is therefore given by $\frac{(n)_r}{r!}$. Expressions of this kind are known as \textit{binomial coefficients}, and the standard notatoin for them is
+			\begin{equation}
+				\label{eq:2.4.1}
+				{n \choose r} = \frac{(n)_r}{r!} = \frac{n(n-1)\dots(n-r+1)}{r(r-1)\dots 2\cdot 1}
+			\end{equation}
+			\paragraph{Theorem} A population of $n$ elements possesses $n \choose r$ different subpopulations of size $r \leq n$.
+			\paragraph{} When we choose a subset of $r$ elements, another subset of size $n-r$ is also determined. It follows that there are as many as subpopulations of size $r$ as there are subpopulations of size $n-r$, and hence for $1 \leq r \leq n$ we must have
+			\begin{equation}
+				\label{eq:2.4.2}
+				{n \choose r} = {n \choose n-r}
+			\end{equation}
+			To prove equation \eqref{eq:2.4.2} directly we observe that an alternative way of writing the binomial coefficient \eqref{eq:2.4.1} is
+			\begin{equation}
+				\label{eq:2.4.3}
+				{n \choose r} = \frac{n!}{r!(n-r)!}
+			\end{equation}
+			Note that the left side in equation \eqref{eq:2.4.2} is not defined for $r=0$, but the right side is. In order to make equation \eqref{eq:2.4.2} valid for all integers $r$ such that $0\leq r\leq n$, we now define
+			\begin{equation}
+				{n \choose 0} = 1,\indent 0! = 1,\indent(n)_0 = 1.
+			\end{equation}
+			\paragraph{}\textbf{Stirling's formula} can help us calculate the approximation of binomial coefficient, which will be disscussed in section 9.
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
