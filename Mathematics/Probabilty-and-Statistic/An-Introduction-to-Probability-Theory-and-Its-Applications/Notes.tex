@@ -241,7 +241,7 @@
 				\end{aligned}			
 			\end{equation}
 		\subsection{Subpopulations and partitions}
-			\paragraph{} As before, we use the term population of size $n$ to denote an aggregate of $n$ elements without regard to their order. Now consider a subpopulation of size $r$ of a given population consisting of $n$ elements. Since $r$ elements can be numbered in $r!$ different ways, it follows that there are exactly $r!$ times as many samples as there are subpopulations of size $r$. The number of subpopulations of size $r$ is therefore given by $\frac{(n)_r}{r!}$. Expressions of this kind are known as \textit{binomial coefficients}, and the standard notatoin for them is
+			\paragraph{} As before, we use the term population of size $n$ to denote an aggregate of $n$ elements without regard to their order. Now consider a subpopulation of size $r$ of a given population consisting of $n$ elements. Since $r$ elements can be numbered in $r!$ different ways, it follows that there are exactly $r!$ times as many samples as there are subpopulations of size $r$. The number of subpopulations of size $r$ is therefore given by $\frac{(n)_r}{r!}$. Expressions of this kind are known as \textit{\textbf{binomial coefficients}}, and the standard notatoin for them is
 			\begin{equation}
 				\label{eq:2.4.1}
 				{n \choose r} = \frac{(n)_r}{r!} = \frac{n(n-1)\dots(n-r+1)}{r(r-1)\dots 2\cdot 1}
@@ -262,6 +262,23 @@
 				{n \choose 0} = 1,\indent 0! = 1,\indent(n)_0 = 1.
 			\end{equation}
 			\paragraph{}\textbf{Stirling's formula} can help us calculate the approximation of binomial coefficient, which will be disscussed in section 9.
+			\paragraph{} The distinction between distinguishable and indistinguishable elements is similar to the relationship between a subpopulation and the corresponding ordered samples. Deleting the subscripts in an arragement (or grouping) of $r$ elements $a_1,\dots,a_r$ yields an arrangement of $r$ indistinguishable letters. Different from considering a subpopulation as to \textbf{choose $r$ elements from $n$}, the alternative way to understand this is to \textbf{eliminate the repetitive counting of the order information from ordered samples (divide $(n)_r$ by $r!$)}. The latter idea helps us to solve more problems like the examples on P36 (plz review in detail) and lead us to the theorem of partition.
+			\paragraph{Theorem} Let $r_1,\cdots,r_k$ be integers such that
+			\begin{equation}
+				r_1+r_2+\cdots+r_k=n,\indent r_i\geq 0
+			\end{equation}
+			The number of ways in which a population of $n$ elements can be divided into $k$ ordered parts (partitioned into $k$ subpopulations) of which the first contains $r_1$ elements, the second $r_2$ elements, etc., is
+			\begin{equation}
+				\label{eq:2.4.6}
+				\frac{n!}{r_1!r_2!\cdots r_k!}
+			\end{equation}
+			This is called \textit{\textbf{multinomial coefficients}}.
+			\paragraph{} Note that the order of the subpopulations is essential in the sense that ($r_1=2,r_2=3$) and ($r_1=3,r_2=2$) represent different partitions; however, no attention is paid to the order within the groups. It is permitted that $r_i=0$ because $0!=1$ makes it no way affect formula \eqref{eq:2.4.6}.
+			\paragraph{Proof} A repeat use of \eqref{eq:2.4.3} will show that \eqref{eq:2.4.6} may be rewritten in the form
+			\begin{equation}
+				{n \choose r_1}{n-r_1 \choose r_2}{n-r_1-r_2 \choose r_3}\cdots{n-r_1-\cdots-r_{k-2} \choose r_{k-1}}
+			\end{equation}
+			On the other hand, in order to effect the desired partition, we have first to select $r_1$ elements out of the given $n$; of the remaining $n-r_1$ elements we select a second group of size $r_2$, etc. After forming the ($k-1$)st group there remain $n-r_1-r_2-\cdots-r_{k-1}=r_k$ elements and form the last group.
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
