@@ -106,7 +106,7 @@
 				\label{eq:1.7.7}
 				P\{A_1\cup A_2\cup \dots\} \leq P\{A_1\} + P\{A_2\} + \dots
 			\end{equation}
-			holds (Occasionally \eqref{eq:1.7.7} referred to as \textit{Boole's inequality}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have 
+			holds (Occasionally \eqref{eq:1.7.7} referred to as \textit{\textbf{Boole's inequality}}). In the special case where the events $A_1,A_2,\dots$ are mutually exclusive, we have 
 			\begin{equation}
 				\label{eq:1.7.8}
 				P\{A_1\cup A_2\cup \dots\} = P\{A_1\} + P\{A_2\} + \dots
@@ -277,7 +277,26 @@
 				{n \choose r_1}{n-r_1 \choose r_2}{n-r_1-r_2 \choose r_3}\cdots{n-r_1-\cdots-r_{k-2} \choose r_{k-1}}
 			\end{equation}
 			On the other hand, in order to effect the desired partition, we have first to select $r_1$ elements out of the given $n$; of the remaining $n-r_1$ elements we select a second group of size $r_2$, etc. After forming the ($k-1$)st group there remain $n-r_1-r_2-\cdots-r_{k-1}=r_k$ elements and form the last group.
-		\subsection{Application to Occupancy Problems}
+		\subsection{Application to Occupancy Problems} The examples of chapter 1.2, indicate the wide applicability of the model of placing randomly $r$ balls into $n$ cells. In many situations it is necessary to treat the balls as indistinguishable. Such an event is completely described by its \textit{occupancy numbers} $r_1,r_2,\dots,r_n$, where $r_k$ stands for the number of balls in the $k$th cell. Every $n$-tuple of integers satisfying
+		\begin{equation}
+			\label{eq:2.5.1}
+			r_1+r_2+\cdots+r_n=r,\indent r_k\geq 0
+		\end{equation}
+		describes a possible configuraiton of occupancy numbers.\textit{ With indistinguishable balls two distributions are distinguishable only if the corresponding n-tuples ($r_1, r_2,\dots, r_n$) are not identical}. We now prove that:
+		\begin{enumerate}
+		\item[(\textit{i})] The number of distinguishable distributions is
+		\begin{equation}
+			A_{r,n} = {n+r-1\choose r} = {n+r-1\choose n-1}
+		\end{equation}
+		\item[(\textit{ii})] The number of distinguishable distributions in which no cell remains empty is ${r-1\choose n-1}$.
+		\end{enumerate}
+		\paragraph{Proof} ($i$) The problem can be transformed into using $n-1$ bars to separate $r$ balls. It indicates that the $n-1$ bars and $r$ balls can appear in an arbitrary order. In this way it becomes apparent that the number of distinguishable distributions equals the number of ways of selecting $r$ places out of $n+r-1$, namely $A_{r,n}$. ($ii$) The condition that no cell be empty imposes the restriction that no two bars be adjacent. The $r$ balls will leave $r-1$ spaces of which $n-1$ are to be occupied by bars: thus we have $r-1 \choose n-1$ and the assertion is proved.
+		\paragraph{} Consider now $n$ fixed integers satisfying \eqref{eq:2.5.1}. The number of placements of $r$ balls in $n$ cells resulting in the occupancy numbers $r_1, r_2, \dots, r_n$ is given by \eqref{eq:2.4.6}. Assuming that all $n^r$ possible placements are equally probable, the probability to obtain the given occupancy numbers $r_1,\dots,r_n$ equals
+		\begin{equation}
+			\label{eq:2.5.3}
+			\frac{r!}{r_1!r_2!\cdots r_n!}n^{-r}
+		\end{equation}
+		This equation \eqref{eq:2.5.3} in physics is known as \textit{\textbf{Maxwell-Boltzmann distribution}}. Note that there are $n$ occupancy numbers here. After we know the number of balls in each cell, $\frac{r!}{r_1!r_2!\cdots r_n!}$ is the number of ways to partition the $r$ balls into $r_1,\dots,r_n$ (of course $r_k=0$ is permitted). $n^r$ is the number of ways to place the balls into cells without any constraints. Both of them consider the order information.
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
