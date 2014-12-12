@@ -5,9 +5,9 @@
 \contentsline {paragraph}{Sample Space}{2}
 \contentsline {subsection}{\numberline {1.2}Examples}{2}
 \contentsline {paragraph}{Notes}{2}
-\contentsline {subsection}{\numberline {1.3}The Sample Space and Events}{3}
-\contentsline {paragraph}{}{3}
-\contentsline {paragraph}{}{3}
+\contentsline {subsection}{\numberline {1.3}The Sample Space and Events}{2}
+\contentsline {paragraph}{}{2}
+\contentsline {paragraph}{}{2}
 \contentsline {subsection}{\numberline {1.4}Relations among Events}{3}
 \contentsline {paragraph}{}{3}
 \contentsline {paragraph}{Definations}{3}
@@ -54,6 +54,7 @@
 \contentsline {paragraph}{Theorem}{13}
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{Proof}{13}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{14}
-\contentsline {section}{\numberline {4}Combination of Events}{15}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{16}
+\contentsline {subsection}{\numberline {2.5}Application to Occupancy Problems}{14}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{15}
+\contentsline {section}{\numberline {4}Combination of Events}{16}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{17}

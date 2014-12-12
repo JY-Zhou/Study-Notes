@@ -20,8 +20,6 @@
 				\begin{itemize}
 				\item Placing \textit{r} \textbf{distinguishable} balls into \textit{n} \textbf{distinguishable} cells. \\ $$N=n^r$$
 				\item Placing \textit{r} \textbf{indistinguishable} balls into \textit{n} \textbf{distinguishable} cells. \\ $$N= {r+n-1 \choose r}$$
-				\item Placing \textit{r} \textbf{distinguishable} balls into \textit{n} \textbf{indistinguishable} cells. \\ $$?$$
-				\item Placing \textit{r} \textbf{indistinguishable} balls into \textit{n} \textbf{indistinguishable} cells. \\ $$?$$
 				\end{itemize}
 			When we facing some particular problems, the model of distinguishable or indistinguishable balls is purely a matter of purpose and convenience.
 			\end{enumerate}
@@ -279,6 +277,7 @@
 				{n \choose r_1}{n-r_1 \choose r_2}{n-r_1-r_2 \choose r_3}\cdots{n-r_1-\cdots-r_{k-2} \choose r_{k-1}}
 			\end{equation}
 			On the other hand, in order to effect the desired partition, we have first to select $r_1$ elements out of the given $n$; of the remaining $n-r_1$ elements we select a second group of size $r_2$, etc. After forming the ($k-1$)st group there remain $n-r_1-r_2-\cdots-r_{k-1}=r_k$ elements and form the last group.
+		\subsection{Application to Occupancy Problems}
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
