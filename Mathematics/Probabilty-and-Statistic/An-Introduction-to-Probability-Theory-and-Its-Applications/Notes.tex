@@ -288,16 +288,31 @@
 		\begin{equation}
 			A_{r,n} = {n+r-1\choose r} = {n+r-1\choose n-1}
 		\end{equation}
-		\item[(\textit{ii})] The number of distinguishable distributions in which no cell remains empty is ${r-1\choose n-1}$.
-		\end{enumerate}
-		\paragraph{Proof} ($i$) The problem can be transformed into using $n-1$ bars to separate $r$ balls. It indicates that the $n-1$ bars and $r$ balls can appear in an arbitrary order. In this way it becomes apparent that the number of distinguishable distributions equals the number of ways of selecting $r$ places out of $n+r-1$, namely $A_{r,n}$. ($ii$) The condition that no cell be empty imposes the restriction that no two bars be adjacent. The $r$ balls will leave $r-1$ spaces of which $n-1$ are to be occupied by bars: thus we have $r-1 \choose n-1$ and the assertion is proved.
-		\paragraph{} Consider now $n$ fixed integers satisfying \eqref{eq:2.5.1}. The number of placements of $r$ balls in $n$ cells resulting in the occupancy numbers $r_1, r_2, \dots, r_n$ is given by \eqref{eq:2.4.6}. Assuming that all $n^r$ possible placements are equally probable, the probability to obtain the given occupancy numbers $r_1,\dots,r_n$ equals
+		\item[(\textit{ii})] The number of distinguishable distributions in which no cell remains empty is 
 		\begin{equation}
 			\label{eq:2.5.3}
+			{r-1\choose n-1}
+		\end{equation}
+
+		\end{enumerate}
+		\paragraph{Proof} ($i$) The problem can be transformed into using $n-1$ bars to separate $r$ balls. It indicates that the $n-1$ bars and $r$ balls can appear in an arbitrary order. In this way it becomes apparent that the number of distinguishable distributions equals the number of ways of selecting $r$ places out of $n+r-1$, namely $A_{r,n}$. ($ii$) The condition that no cell be empty imposes the restriction that no two bars be adjacent. The $r$ balls will leave $r-1$ spaces of which $n-1$ are to be occupied by bars: thus we have $r-1 \choose n-1$ and the assertion is proved.
+		\paragraph{} Consider now $n$ fixed integers satisfying \eqref{eq:2.5.1}. The number of placements of $r$ \textit{distinguishable} balls in $n$ cells resulting in the occupancy numbers $r_1, r_2, \dots, r_n$ is given by \eqref{eq:2.4.6}. Assuming that all $n^r$ possible placements are equally probable, the probability to obtain the given occupancy numbers $r_1,\dots,r_n$ equals
+		\begin{equation}
+			\label{eq:2.5.4}
 			\frac{r!}{r_1!r_2!\cdots r_n!}n^{-r}
 		\end{equation}
-		This equation \eqref{eq:2.5.3} in physics is known as \textit{\textbf{Maxwell-Boltzmann distribution}}. Note that there are $n$ occupancy numbers here. After we know the number of balls in each cell, $\frac{r!}{r_1!r_2!\cdots r_n!}$ is the number of ways to partition the $r$ balls into $r_1,\dots,r_n$ (of course $r_k=0$ is permitted). $n^r$ is the number of ways to place the balls into cells without any constraints.
-		\paragraph{} 
+		This equation \eqref{eq:2.5.4} in physics is known as \textit{\textbf{Maxwell-Boltzmann distribution}}.
+		\paragraph{} For the sake of definiteness let us consider the distributions with \textit{occupancy numbers appearing in an arbitrary order}. For an example, we place $r=7$ balls in $n=7$ cells. The occupancy numbers are $2,2,1,1,1,0,0$ in arbitrary order. These seven occupancy numbers induce a partition of the seven cells into three subpopulations consisting, respectively, of the two doubly occupied, the three singly occupied, and the two empty cells. Such a partition into three groups of size 2,3, and 2 can be effected in $\frac{7!}{2!3!2!}$ ways. To each particular assignment of our occupancy numbers to the seven cells there correspond $\frac{7!}{2!2!1!1!1!0!0!}$ different distributions of $r=7$ balls into the seven cells. Accordingly, the total number of distributions such that the occupancy numbers coincide with $2,2,1,1,1,0,0$ in some order is \begin{equation}
+			\label{eq:2.5.5}
+			\frac{7!}{2!3!2!}\times\frac{7!}{2!2!}
+		\end{equation} This is derived by a double application of \eqref{eq:2.4.6}, namely to balls and to cells. More details are on P40.
+		\paragraph{}Before continuing, a problem comes out: what's the probabilty of placing 6 balls into 4 cells with no cell empty.
+		\begin{enumerate}
+		\item The balls are indistinguishable. \\ If the balls are indistinguishable, we can apply \eqref{eq:2.5.3} and \eqref{eq:2.5.4} to get the answer. $$p=\frac{{5\choose 3}}{{9\choose 6}}$$
+		\item The balls are distinguishable. \\ At first, we put forward a \textit{wrong} idea. Since the balls are distinguishable, there are $4^6$ ways to place the balls. Then we choose 4 balls from 6 and place them in each cell. The remaining 2 balls have $4^2$ ways to be placed. So the probability is
+		$$p=\frac{(6)_4\times 4^2}{4^6}$$
+		The reason why this is wrong is that we consider the balls in a specific cell is also ordered (which $|1|2,3|4|$ is different from $|1|3,2|4|$). So we have repeatedly counted it. \\ The correct idea is like the derivation of \eqref{eq:2.5.5}. There are only two assignments of occupancy numbers which are $2,2,1,1$ and $3,1,1,1$ in arbitrary orders where no empty cells. So the probability should be $$p=\frac{\frac{4!}{2!2!}\times\frac{6!}{2!2!1!1!}+\frac{4!}{3!1!}\times\frac{6!}{3!1!1!1!}}{4^6}$$
+		\end{enumerate}
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			

@@ -58,6 +58,7 @@
 \contentsline {paragraph}{Proof}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{14}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{15}
-\contentsline {section}{\numberline {4}Combination of Events}{16}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{17}
+\contentsline {paragraph}{}{15}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{16}
+\contentsline {section}{\numberline {4}Combination of Events}{17}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{18}
