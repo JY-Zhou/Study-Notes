@@ -59,6 +59,8 @@
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{15}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{16}
-\contentsline {section}{\numberline {4}Combination of Events}{17}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{18}
+\contentsline {paragraph}{Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}{15}
+\contentsline {paragraph}{Application to Runs}{16}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{17}
+\contentsline {section}{\numberline {4}Combination of Events}{18}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{19}
