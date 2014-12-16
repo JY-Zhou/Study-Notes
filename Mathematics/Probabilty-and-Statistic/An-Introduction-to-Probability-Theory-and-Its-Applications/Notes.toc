@@ -72,8 +72,9 @@
 \contentsline {paragraph}{}{17}
 \contentsline {paragraph}{}{17}
 \contentsline {paragraph}{}{17}
-\contentsline {subsection}{\numberline {2.7}Examples for Waiting Times}{17}
-\contentsline {paragraph}{}{17}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{18}
-\contentsline {section}{\numberline {4}Combination of Events}{19}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{20}
+\contentsline {subsection}{\numberline {2.7}Examples for Waiting Times}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{19}
+\contentsline {section}{\numberline {4}Combination of Events}{20}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{21}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.9)  16 DEC 2014 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.12.9)  16 DEC 2014 22:39
 entering extended mode
 **Notes.tex
 
@@ -166,12 +166,12 @@ OT1/cmr/m/n/10 1)$, so $\OML/cmm/m/it/10 P\OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 AB
 \OMS/cmsy/m/n/10 g \OT1/cmr/m/n/10 =$
  []
 
-[8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
-Overfull \hbox (16.57628pt too wide) in paragraph at lines 363--363
+[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+Overfull \hbox (16.57628pt too wide) in paragraph at lines 368--368
 []\OT1/cmr/bx/n/14.4 Fluctuations in Coin Toss-ing and Ran-dom Walks 
  []
 
-[18] [19] [20]
+[19] [20] [21]
 (E:\Github\Study-Notes\Mathematics\Probabilty-and-Statistic\An-Introduction-to-
 Probability-Theory-and-Its-Applications\Notes.aux) ) 
 Here is how much of TeX's memory you used:
@@ -197,9 +197,9 @@ ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.
 pfb>
-Output written on Notes.pdf (20 pages, 248135 bytes).
+Output written on Notes.pdf (21 pages, 248997 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

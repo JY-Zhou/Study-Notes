@@ -336,7 +336,7 @@
 				\label{eq:2.6.2}
 				q_k = \frac{{r \choose k}{n-r \choose n_1-k}}{{n \choose n_1}}
 			\end{equation}
-			The formula \eqref{eq:2.6.2} can be understood as: The $n$ elements have not been colored, so we choose $n_1$ elements from $n$ to color them red. Then we are sure that $k$ elements from $r$ is red. So, we have to choose $k$ elements from $r$ and choose another $n_1-k$ elements from the $n-n_1$ elements to color them red.
+			The formula \eqref{eq:2.6.2} can be understood as: The $n$ elements have not been colored, so we choose $n_1$ elements from $n$ to color them red. Then we are sure that $k$ elements from $r$ is red. So, we have to choose $k$ elements from $r$ and choose another $n_1-k$ elements from the $n-n_1$ to color them red.
 			\paragraph{} The probabilities $q_k$ are defined only for $k$ not exceeding $r$ or $n_1$, but since ${a\choose b}$ whenever $b>a$, formulas \eqref{eq:2.6.1} and \eqref{eq:2.6.2} give $q_k=0$ is either $k>n_1$ or $k>r$. Accordingly, the definitions \eqref{eq:2.6.1} and \eqref{eq:2.6.2} may be used for all $k\geq0$, provided the relations $q_k=0$ is interpreted as impossibility.
 			\paragraph{} The example (c) on P45 introduces some estimation methods. \textit{Point estimation} (\textit{maximum likelihood estimate}) and \textit{interval estimation} are  mentioned. Both of them will contain some unknown parameters (Please read this example carefully on P45). An interesting property of hypergeometric distribution is put forward here. Considering a hypergeometric distribution, the parameters $n_1, r, k$ are already known and the parameter $n$ is unknown. $q_k(n)$ will get the maximum value when $n=\frac{n_1r}{k}$. This can be proved by calculating the ratio
 			\begin{equation}
@@ -358,7 +358,12 @@
 			It is, of course, necessary that
 			$$k_1\leq n_1,\indent k_2\leq n_2, \indent r-k_1-k_2\leq n-n_1-n_2.$$
 		\subsection{Examples for Waiting Times}
-			\paragraph{} 
+			\paragraph{} This section considers once more the conceptual experiment of placing balls randomly into $n$ cells. This time, however, we do not fix in advance the number $r$ of balls but let the balls be placed one by one as long as necessary for a prescribed situation to arise. Two such possible situations will be discussed explicitly: (i) The random placing of balls continues until for the first time a ball is placed into a cell already occupied. (ii) We fix a cell and continue the procedure of placing balls as long as this cell remains empty.
+			\paragraph{} Here we analyze these two models respectively.
+			\begin{enumerate}
+			\item[(i)]
+			\item[(ii)]
+			\end{enumerate}
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
