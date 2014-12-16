@@ -277,85 +277,88 @@
 				{n \choose r_1}{n-r_1 \choose r_2}{n-r_1-r_2 \choose r_3}\cdots{n-r_1-\cdots-r_{k-2} \choose r_{k-1}}
 			\end{equation}
 			On the other hand, in order to effect the desired partition, we have first to select $r_1$ elements out of the given $n$; of the remaining $n-r_1$ elements we select a second group of size $r_2$, etc. After forming the ($k-1$)st group there remain $n-r_1-r_2-\cdots-r_{k-1}=r_k$ elements and form the last group.
-		\subsection{Application to Occupancy Problems} The examples of chapter 1.2, indicate the wide applicability of the model of placing randomly $r$ balls into $n$ cells. In many situations it is necessary to treat the balls as indistinguishable. Such an event is completely described by its \textit{occupancy numbers} $r_1,r_2,\dots,r_n$, where $r_k$ stands for the number of balls in the $k$th cell. Every $n$-tuple of integers satisfying
-		\begin{equation}
-			\label{eq:2.5.1}
-			r_1+r_2+\cdots+r_n=r,\indent r_k\geq 0
-		\end{equation}
-		describes a possible configuraiton of occupancy numbers.\textit{ With indistinguishable balls two distributions are distinguishable only if the corresponding n-tuples ($r_1, r_2,\dots, r_n$) are not identical}. We now prove that:
-		\begin{enumerate}
-		\item[(\textit{i})] The number of distinguishable distributions is
-		\begin{equation}
-			A_{r,n} = {n+r-1\choose r} = {n+r-1\choose n-1}
-		\end{equation}
-		\item[(\textit{ii})] The number of distinguishable distributions in which no cell remains empty is 
-		\begin{equation}
-			\label{eq:2.5.3}
-			{r-1\choose n-1}
-		\end{equation}
-
-		\end{enumerate}
-		\paragraph{Proof} ($i$) The problem can be transformed into using $n-1$ bars to separate $r$ balls. It indicates that the $n-1$ bars and $r$ balls can appear in an arbitrary order. In this way it becomes apparent that the number of distinguishable distributions equals the number of ways of selecting $r$ places out of $n+r-1$, namely $A_{r,n}$. ($ii$) The condition that no cell be empty imposes the restriction that no two bars be adjacent. The $r$ balls will leave $r-1$ spaces of which $n-1$ are to be occupied by bars: thus we have $r-1 \choose n-1$ and the assertion is proved.
-		\paragraph{} Consider now $n$ fixed integers satisfying \eqref{eq:2.5.1}. The number of placements of $r$ \textit{distinguishable} balls in $n$ cells resulting in the occupancy numbers $r_1, r_2, \dots, r_n$ is given by \eqref{eq:2.4.6}. Assuming that all $n^r$ possible placements are equally probable, the probability to obtain the given occupancy numbers $r_1,\dots,r_n$ equals
-		\begin{equation}
-			\label{eq:2.5.4}
-			\frac{r!}{r_1!r_2!\cdots r_n!}n^{-r}
-		\end{equation}
-		This equation \eqref{eq:2.5.4} in physics is known as \textit{\textbf{Maxwell-Boltzmann distribution}}.
-		\paragraph{} For the sake of definiteness let us consider the distributions with \textit{occupancy numbers appearing in an arbitrary order}. For an example, we place $r=7$ balls in $n=7$ cells. The occupancy numbers are $2,2,1,1,1,0,0$ in arbitrary order. These seven occupancy numbers induce a partition of the seven cells into three subpopulations consisting, respectively, of the two doubly occupied, the three singly occupied, and the two empty cells. Such a partition into three groups of size 2,3, and 2 can be effected in $\frac{7!}{2!3!2!}$ ways. To each particular assignment of our occupancy numbers to the seven cells there correspond $\frac{7!}{2!2!1!1!1!0!0!}$ different distributions of $r=7$ balls into the seven cells. Accordingly, the total number of distributions such that the occupancy numbers coincide with $2,2,1,1,1,0,0$ in some order is \begin{equation}
-			\label{eq:2.5.5}
-			\frac{7!}{2!3!2!}\times\frac{7!}{2!2!}
-		\end{equation} This is derived by a double application of \eqref{eq:2.4.6}, namely to balls and to cells. More details are on P40.
-		\paragraph{}Before continuing, a problem comes out: what's the probabilty of placing 6 balls into 4 cells with no cell empty.
-		\begin{enumerate}
-		\item The balls are indistinguishable. \\ If the balls are indistinguishable, we can apply \eqref{eq:2.5.3} and \eqref{eq:2.5.4} to get the answer. $$p=\frac{{5\choose 3}}{{9\choose 6}}$$
-		\item The balls are distinguishable. \\ At first, we put forward a \textit{wrong} idea. Since the balls are distinguishable, there are $4^6$ ways to place the balls. Then we choose 4 balls from 6 and place them in each cell. The remaining 2 balls have $4^2$ ways to be placed. So the probability is
-		$$p=\frac{(6)_4\times 4^2}{4^6}$$
-		The reason why this is wrong is that we consider the balls in a specific cell is also ordered (which $|1|2,3|4|$ is different from $|1|3,2|4|$). So we have repeatedly counted it. \\ The correct idea is like the derivation of \eqref{eq:2.5.5}. There are only two assignments of occupancy numbers which are $2,2,1,1$ and $3,1,1,1$ in arbitrary orders where no empty cells. So the probability should be $$p=\frac{\frac{4!}{2!2!}\times\frac{6!}{2!2!1!1!}+\frac{4!}{3!1!}\times\frac{6!}{3!1!1!1!}}{4^6}$$
-		\end{enumerate}
-		\subsubsection{Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}
-		\begin{itemize}
-		\item \textbf{Maxwell-Boltzmann Statistics} \\ ?
-		\item \textbf{Bose-Einstein Statistics} \\ ?
-		\item \textbf{Fermi-Dirac Statistics} \\ ?
-		\end{itemize}
-		\subsubsection{Application to Runs}
-		\paragraph{Run} In any ordered sequence of elements of two kinds, each maximal subsequence of elements of like kind is called a \textit{run}. 
-		\paragraph{} For example, the sequence $\alpha\alpha\alpha\beta\alpha\alpha\beta\beta\beta\alpha$ opens with an $\alpha$ run of length 3; it is followed by runs of length 1,2,3,1, respectively. The $\alpha$ and $\beta$ runs alternate so that the total number of runs is always one plus the number of conjunctions of unlike neighbors in the given sequence.
-		\paragraph{} The theory of runs is applied in statistics in many ways, but its principal uses are connected with \textit{tests of randomness} or \textit{tests of homogeneity}. The former one is to compute the probability of an observation to determine the observation is intentional or accidental. The latter one focuses on two sequences. These two sequences are similar initially then they are applied different operations. Finally we combine two sequences together to find out the difference between two operations by computing the probability (Please read P42 in details).
+		\subsection{Application to Occupancy Problems} 
+			\paragraph{} The examples of chapter 1.2, indicate the wide applicability of the model of placing randomly $r$ balls into $n$ cells. In many situations it is necessary to treat the balls as indistinguishable. Such an event is completely described by its \textit{occupancy numbers} $r_1,r_2,\dots,r_n$, where $r_k$ stands for the number of balls in the $k$th cell. Every $n$-tuple of integers satisfying
+			\begin{equation}
+				\label{eq:2.5.1}
+				r_1+r_2+\cdots+r_n=r,\indent r_k\geq 0
+			\end{equation}
+			describes a possible configuraiton of occupancy numbers.\textit{ With indistinguishable balls two distributions are distinguishable only if the corresponding n-tuples ($r_1, r_2,\dots, r_n$) are not identical}. We now prove that:
+			\begin{enumerate}
+			\item[(\textit{i})] The number of distinguishable distributions is
+			\begin{equation}
+				A_{r,n} = {n+r-1\choose r} = {n+r-1\choose n-1}
+			\end{equation}
+			\item[(\textit{ii})] The number of distinguishable distributions in which no cell remains empty is 
+			\begin{equation}
+				\label{eq:2.5.3}
+				{r-1\choose n-1}
+			\end{equation}
+	
+			\end{enumerate}
+			\paragraph{Proof} ($i$) The problem can be transformed into using $n-1$ bars to separate $r$ balls. It indicates that the $n-1$ bars and $r$ balls can appear in an arbitrary order. In this way it becomes apparent that the number of distinguishable distributions equals the number of ways of selecting $r$ places out of $n+r-1$, namely $A_{r,n}$. ($ii$) The condition that no cell be empty imposes the restriction that no two bars be adjacent. The $r$ balls will leave $r-1$ spaces of which $n-1$ are to be occupied by bars: thus we have $r-1 \choose n-1$ and the assertion is proved.
+			\paragraph{} Consider now $n$ fixed integers satisfying \eqref{eq:2.5.1}. The number of placements of $r$ \textit{distinguishable} balls in $n$ cells resulting in the occupancy numbers $r_1, r_2, \dots, r_n$ is given by \eqref{eq:2.4.6}. Assuming that all $n^r$ possible placements are equally probable, the probability to obtain the given occupancy numbers $r_1,\dots,r_n$ equals
+			\begin{equation}
+				\label{eq:2.5.4}
+				\frac{r!}{r_1!r_2!\cdots r_n!}n^{-r}
+			\end{equation}
+			This equation \eqref{eq:2.5.4} in physics is known as \textit{\textbf{Maxwell-Boltzmann distribution}}.
+			\paragraph{} For the sake of definiteness let us consider the distributions with \textit{occupancy numbers appearing in an arbitrary order}. For an example, we place $r=7$ balls in $n=7$ cells. The occupancy numbers are $2,2,1,1,1,0,0$ in arbitrary order. These seven occupancy numbers induce a partition of the seven cells into three subpopulations consisting, respectively, of the two doubly occupied, the three singly occupied, and the two empty cells. Such a partition into three groups of size 2,3, and 2 can be effected in $\frac{7!}{2!3!2!}$ ways. To each particular assignment of our occupancy numbers to the seven cells there correspond $\frac{7!}{2!2!1!1!1!0!0!}$ different distributions of $r=7$ balls into the seven cells. Accordingly, the total number of distributions such that the occupancy numbers coincide with $2,2,1,1,1,0,0$ in some order is \begin{equation}
+				\label{eq:2.5.5}
+				\frac{7!}{2!3!2!}\times\frac{7!}{2!2!}
+			\end{equation} This is derived by a double application of \eqref{eq:2.4.6}, namely to balls and to cells. More details are on P40.
+			\paragraph{}Before continuing, a problem comes out: what's the probabilty of placing 6 balls into 4 cells with no cell empty.
+			\begin{enumerate}
+			\item The balls are indistinguishable. \\ If the balls are indistinguishable, we can apply \eqref{eq:2.5.3} and \eqref{eq:2.5.4} to get the answer. $$p=\frac{{5\choose 3}}{{9\choose 6}}$$
+			\item The balls are distinguishable. \\ At first, we put forward a \textit{wrong} idea. Since the balls are distinguishable, there are $4^6$ ways to place the balls. Then we choose 4 balls from 6 and place them in each cell. The remaining 2 balls have $4^2$ ways to be placed. So the probability is
+			$$p=\frac{(6)_4\times 4^2}{4^6}$$
+			The reason why this is wrong is that we consider the balls in a specific cell is also ordered (which $|1|2,3|4|$ is different from $|1|3,2|4|$). So we have repeatedly counted it. \\ The correct idea is like the derivation of \eqref{eq:2.5.5}. There are only two assignments of occupancy numbers which are $2,2,1,1$ and $3,1,1,1$ in arbitrary orders where no empty cells. So the probability should be $$p=\frac{\frac{4!}{2!2!}\times\frac{6!}{2!2!1!1!}+\frac{4!}{3!1!}\times\frac{6!}{3!1!1!1!}}{4^6}$$
+			\end{enumerate}
+			\subsubsection{Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}
+			\begin{itemize}
+			\item \textbf{Maxwell-Boltzmann Statistics} \\ ?
+			\item \textbf{Bose-Einstein Statistics} \\ ?
+			\item \textbf{Fermi-Dirac Statistics} \\ ?
+			\end{itemize}
+			\subsubsection{Application to Runs}
+			\paragraph{Run} In any ordered sequence of elements of two kinds, each maximal subsequence of elements of like kind is called a \textit{run}. 
+			\paragraph{} For example, the sequence $\alpha\alpha\alpha\beta\alpha\alpha\beta\beta\beta\alpha$ opens with an $\alpha$ run of length 3; it is followed by runs of length 1,2,3,1, respectively. The $\alpha$ and $\beta$ runs alternate so that the total number of runs is always one plus the number of conjunctions of unlike neighbors in the given sequence.
+			\paragraph{} The theory of runs is applied in statistics in many ways, but its principal uses are connected with \textit{tests of randomness} or \textit{tests of homogeneity}. The former one is to compute the probability of an observation to determine the observation is intentional or accidental. The latter one focuses on two sequences. These two sequences are similar initially then they are applied different operations. Finally we combine two sequences together to find out the difference between two operations by computing the probability (Please read P42 in details).
 		\subsection{The Hypergeometric Distribution}
-		\paragraph{} Many combinatorial problems can be reduced to the following form. In a population of $n$ elements $n_1$ are red and $n_2=n-n_1$ are black. A group of $r$ elements is chosen at random. We seek the probability $q_k$ that the group so chosen will contain exactly $k$ red elements. Here $k$ can be any integer between zero and $n_1$ or $r$, whichever is smaller.
-		\paragraph{} To find $q_k$, we note that the chosen group contains $k$ red and $r-k$ black elements. The red ones can be chosen in ${n_1 \choose k}$ different ways and the black ones in ${n-n_1 \choose r-k}$. Since any choice of $k$ red elements may be combined with any choice of black ones, we find
-		\begin{equation}
-			\label{eq:2.6.1}
-			q_k = \frac{{n_1\choose k}{n-n_1 \choose r-k}}{{n \choose r}}
-		\end{equation}
-		The system of probabilities so defined is called the \textbf{\textit{hypergeometric distribution}}. Using \eqref{eq:2.4.3}, it's possible to rewrite \eqref{eq:2.6.1} in the form
-		\begin{equation}
-			\label{eq:2.6.2}
-			q_k = \frac{{r \choose k}{n-r \choose n_1-k}}{{n \choose n_1}}
-		\end{equation}
-		\paragraph{} The probabilities $q_k$ are defined only for $k$ not exceeding $r$ or $n_1$, but since ${a\choose b}$ whenever $b>a$, formulas \eqref{eq:2.6.1} and \eqref{eq:2.6.2} give $q_k=0$ is either $k>n_1$ or $k>r$. Accordingly, the definitions \eqref{eq:2.6.1} and \eqref{eq:2.6.2} may be used for all $k\geq0$, provided the relations $q_k=0$ is interpreted as impossibility.
-		\paragraph{} The example (c) on P45 introduces some estimation methods. \textit{Point estimation} (\textit{maximum likelihood estimate}) and \textit{interval estimation} are  mentioned. Both of them will contain some unknown parameters (Please read this example carefully on P45). An interesting property of hypergeometric distribution is put forward here. Considering a hypergeometric distribution, the parameters $n_1, r, k$ are already known and the parameter $n$ is unknown. $q_k(n)$ will get the maximum value when $n=\frac{n_1r}{k}$. This can be proved by calculating the ratio
-		\begin{equation}
-			\label{eq:2.6.3}
-			\frac{q_k(n)}{q_k(n-1)}=\frac{(n-n_1)(n-r)}{(n-n_1-r+k)n}=1+\frac{n_1r-nk}{(n-n_1-r+k)n}
-		\end{equation}
-		So, when $n<\frac{n_1r}{k}$, $\frac{q_k(n)}{q_k(n-1)} > 1$, vice versa. Finally we get the peak of $q_k(n)$ by assigning $n=\frac{n_1r}{k}$. 
-		\paragraph{} From the definition of the probabilities $q_k$ it follows that $$q_0+q_1+q_2+\cdots=1$$ Formula \eqref{eq:2.6.2} therefore implies that for any positive integers $n,n_1,r$
-		\begin{equation}
-			\label{eq:2.6.4}
-			{r \choose 0}{n-r\choose n_1} + {r \choose 1}{n-r \choose n_1-1} + \cdots + {r\choose n_1}{n-r\choose 0} = {n\choose n_1}
-		\end{equation}
-		This identity is frequently useful.
-		\paragraph{} The hypergeometric distribution can easily be generalized to the case where the original population of size $n$ contains several classes of elements. For example, let the population contain three classes of sizes $n_1$, $n_2$ and $n-n_1-n_2$, respectively. If a sample of size $r$ is taken, the probability that it contains $k_1$ elements of the first, $k_2$ elements of the second, and $r-k_1-k_2$ elements of the last class is, by analogy with \eqref{eq:2.6.1}, 
-		\begin{equation}
-			\label{eq:2.6.5}
-			q_{k_1k_2} = \frac{{n_1 \choose k_1}{n_2\choose k_2}{n-n_1-n_2\choose r-k_1-k_2}}{{n \choose r}}
-		\end{equation}
-		It is, of course, necessary that
-		$$k_1\leq n_1,\indent k_2\leq n_2, \indent r-k_1-k_2\leq n-n_1-n_2.$$
+			\paragraph{} Many combinatorial problems can be reduced to the following form. In a population of $n$ elements $n_1$ are red and $n_2=n-n_1$ are black. A group of $r$ elements is chosen at random. We seek the probability $q_k$ that the group so chosen will contain exactly $k$ red elements. Here $k$ can be any integer between zero and $n_1$ or $r$, whichever is smaller.
+			\paragraph{} To find $q_k$, we note that the chosen group contains $k$ red and $r-k$ black elements. The red ones can be chosen in ${n_1 \choose k}$ different ways and the black ones in ${n-n_1 \choose r-k}$. Since any choice of $k$ red elements may be combined with any choice of black ones, we find
+			\begin{equation}
+				\label{eq:2.6.1}
+				q_k = \frac{{n_1\choose k}{n-n_1 \choose r-k}}{{n \choose r}}
+			\end{equation}
+			The system of probabilities so defined is called the \textbf{\textit{hypergeometric distribution}}. Using \eqref{eq:2.4.3}, it's possible to rewrite \eqref{eq:2.6.1} in the form
+			\begin{equation}
+				\label{eq:2.6.2}
+				q_k = \frac{{r \choose k}{n-r \choose n_1-k}}{{n \choose n_1}}
+			\end{equation}
+			The formula \eqref{eq:2.6.2} can be understood as: The $n$ elements have not been colored, so we choose $n_1$ elements from $n$ to color them red. Then we are sure that $k$ elements from $r$ is red. So, we have to choose $k$ elements from $r$ and choose another $n_1-k$ elements from the $n-n_1$ elements to color them red.
+			\paragraph{} The probabilities $q_k$ are defined only for $k$ not exceeding $r$ or $n_1$, but since ${a\choose b}$ whenever $b>a$, formulas \eqref{eq:2.6.1} and \eqref{eq:2.6.2} give $q_k=0$ is either $k>n_1$ or $k>r$. Accordingly, the definitions \eqref{eq:2.6.1} and \eqref{eq:2.6.2} may be used for all $k\geq0$, provided the relations $q_k=0$ is interpreted as impossibility.
+			\paragraph{} The example (c) on P45 introduces some estimation methods. \textit{Point estimation} (\textit{maximum likelihood estimate}) and \textit{interval estimation} are  mentioned. Both of them will contain some unknown parameters (Please read this example carefully on P45). An interesting property of hypergeometric distribution is put forward here. Considering a hypergeometric distribution, the parameters $n_1, r, k$ are already known and the parameter $n$ is unknown. $q_k(n)$ will get the maximum value when $n=\frac{n_1r}{k}$. This can be proved by calculating the ratio
+			\begin{equation}
+				\label{eq:2.6.3}
+				\frac{q_k(n)}{q_k(n-1)}=\frac{(n-n_1)(n-r)}{(n-n_1-r+k)n}=1+\frac{n_1r-nk}{(n-n_1-r+k)n}
+			\end{equation}
+			So, when $n<\frac{n_1r}{k}$, $\frac{q_k(n)}{q_k(n-1)} > 1$, vice versa. Finally we get the peak of $q_k(n)$ by assigning $n=\frac{n_1r}{k}$. 
+			\paragraph{} From the definition of the probabilities $q_k$ it follows that $$q_0+q_1+q_2+\cdots=1$$ Formula \eqref{eq:2.6.2} therefore implies that for any positive integers $n,n_1,r$
+			\begin{equation}
+				\label{eq:2.6.4}
+				{r \choose 0}{n-r\choose n_1} + {r \choose 1}{n-r \choose n_1-1} + \cdots + {r\choose n_1}{n-r\choose 0} = {n\choose n_1}
+			\end{equation}
+			This identity is frequently useful.
+			\paragraph{} The hypergeometric distribution can easily be generalized to the case where the original population of size $n$ contains several classes of elements. For example, let the population contain three classes of sizes $n_1$, $n_2$ and $n-n_1-n_2$, respectively. If a sample of size $r$ is taken, the probability that it contains $k_1$ elements of the first, $k_2$ elements of the second, and $r-k_1-k_2$ elements of the last class is, by analogy with \eqref{eq:2.6.1}, 
+			\begin{equation}
+				\label{eq:2.6.5}
+				q_{k_1k_2} = \frac{{n_1 \choose k_1}{n_2\choose k_2}{n-n_1-n_2\choose r-k_1-k_2}}{{n \choose r}}
+			\end{equation}
+			It is, of course, necessary that
+			$$k_1\leq n_1,\indent k_2\leq n_2, \indent r-k_1-k_2\leq n-n_1-n_2.$$
 		\subsection{Examples for Waiting Times}
+			\paragraph{} 
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
