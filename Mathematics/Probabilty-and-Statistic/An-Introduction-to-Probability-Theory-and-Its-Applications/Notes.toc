@@ -59,8 +59,15 @@
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{}{15}
-\contentsline {paragraph}{Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}{15}
-\contentsline {paragraph}{Application to Runs}{16}
+\contentsline {subsubsection}{\numberline {2.5.1}Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}{15}
+\contentsline {subsubsection}{\numberline {2.5.2}Application to Runs}{16}
+\contentsline {paragraph}{Run}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {subsection}{\numberline {2.6}The Hypergeometric Distribution}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{16}
+\contentsline {paragraph}{}{16}
 \contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{17}
 \contentsline {section}{\numberline {4}Combination of Events}{18}
 \contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{19}
