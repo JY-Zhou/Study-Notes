@@ -336,7 +336,26 @@
 			q_k = \frac{{r \choose k}{n-r \choose n_1-k}}{{n \choose n_1}}
 		\end{equation}
 		\paragraph{} The probabilities $q_k$ are defined only for $k$ not exceeding $r$ or $n_1$, but since ${a\choose b}$ whenever $b>a$, formulas \eqref{eq:2.6.1} and \eqref{eq:2.6.2} give $q_k=0$ is either $k>n_1$ or $k>r$. Accordingly, the definitions \eqref{eq:2.6.1} and \eqref{eq:2.6.2} may be used for all $k\geq0$, provided the relations $q_k=0$ is interpreted as impossibility.
-		
+		\paragraph{} The example (c) on P45 introduces some estimation methods. \textit{Point estimation} (\textit{maximum likelihood estimate}) and \textit{interval estimation} are  mentioned. Both of them will contain some unknown parameters (Please read this example carefully on P45). An interesting property of hypergeometric distribution is put forward here. Considering a hypergeometric distribution, the parameters $n_1, r, k$ are already known and the parameter $n$ is unknown. $q_k(n)$ will get the maximum value when $n=\frac{n_1r}{k}$. This can be proved by calculating the ratio
+		\begin{equation}
+			\label{eq:2.6.3}
+			\frac{q_k(n)}{q_k(n-1)}=\frac{(n-n_1)(n-r)}{(n-n_1-r+k)n}=1+\frac{n_1r-nk}{(n-n_1-r+k)n}
+		\end{equation}
+		So, when $n<\frac{n_1r}{k}$, $\frac{q_k(n)}{q_k(n-1)} > 1$, vice versa. Finally we get the peak of $q_k(n)$ by assigning $n=\frac{n_1r}{k}$. 
+		\paragraph{} From the definition of the probabilities $q_k$ it follows that $$q_0+q_1+q_2+\cdots=1$$ Formula \eqref{eq:2.6.2} therefore implies that for any positive integers $n,n_1,r$
+		\begin{equation}
+			\label{eq:2.6.4}
+			{r \choose 0}{n-r\choose n_1} + {r \choose 1}{n-r \choose n_1-1} + \cdots + {r\choose n_1}{n-r\choose 0} = {n\choose n_1}
+		\end{equation}
+		This identity is frequently useful.
+		\paragraph{} The hypergeometric distribution can easily be generalized to the case where the original population of size $n$ contains several classes of elements. For example, let the population contain three classes of sizes $n_1$, $n_2$ and $n-n_1-n_2$, respectively. If a sample of size $r$ is taken, the probability that it contains $k_1$ elements of the first, $k_2$ elements of the second, and $r-k_1-k_2$ elements of the last class is, by analogy with \eqref{eq:2.6.1}, 
+		\begin{equation}
+			\label{eq:2.6.5}
+			q_{k_1k_2} = \frac{{n_1 \choose k_1}{n_2\choose k_2}{n-n_1-n_2\choose r-k_1-k_2}}{{n \choose r}}
+		\end{equation}
+		It is, of course, necessary that
+		$$k_1\leq n_1,\indent k_2\leq n_2, \indent r-k_1-k_2\leq n-n_1-n_2.$$
+		\subsection{Examples for Waiting Times}
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
