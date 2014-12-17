@@ -82,6 +82,7 @@
 \contentsline {paragraph}{}{20}
 \contentsline {subsection}{\numberline {2.9}Stirling's Formula}{20}
 \contentsline {paragraph}{\textit {Stirling's formula:}}{20}
+\contentsline {paragraph}{{Proof}}{20}
 \contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{21}
 \contentsline {section}{\numberline {4}Combination of Events}{22}
 \contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{23}
