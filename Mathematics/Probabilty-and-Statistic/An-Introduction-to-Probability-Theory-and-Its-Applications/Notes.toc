@@ -75,6 +75,8 @@
 \contentsline {subsection}{\numberline {2.7}Examples for Waiting Times}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{19}
-\contentsline {section}{\numberline {4}Combination of Events}{20}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{21}
+\contentsline {subsection}{\numberline {2.8}Binomial Coefficients}{19}
+\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{19}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{20}
+\contentsline {section}{\numberline {4}Combination of Events}{21}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{22}

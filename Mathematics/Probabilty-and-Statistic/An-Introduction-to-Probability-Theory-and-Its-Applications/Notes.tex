@@ -361,9 +361,27 @@
 			\paragraph{} This section considers once more the conceptual experiment of placing balls randomly into $n$ cells. This time, however, we do not fix in advance the number $r$ of balls but let the balls be placed one by one as long as necessary for a prescribed situation to arise. Two such possible situations will be discussed explicitly: (i) The random placing of balls continues until for the first time a ball is placed into a cell already occupied. (ii) We fix a cell and continue the procedure of placing balls as long as this cell remains empty.
 			\paragraph{} Here we analyze these two models respectively.
 			\begin{enumerate}
-			\item[(i)]
+			\item[(i)] It is convenient to use symbols of the form $(j_1,j_2,\dots,j_r)$ to indicate that the first, second, \dots, $r$th ball are placed in cells number $j_1,j_2,\dots,j_r$ and that the process terminates at the $r$th step. This means that the $j_i$ are integers between 1 and $n$; furthermore, $j_1,\cdots,j_{r-1}$ are all different, but $j_r$ equals one among them. Every arrangement of this type represents a sample point and for $r$ only the values $2,3,\dots,n+1$ are possible. 
+			\medskip \\ For a fixed $r$ the aggregate of all sample points $(j_1,\dots,j_r)$ represents the event that the process terminates at the $r$th step. The number $j_1,\cdots,j_{r-1}$ can be chosen in $(n)_{r-1}$ different ways; for $j_r$ we have the choice of the $r-1$ numbers $j_1,\cdots,j_{r-1}$. It follows that \textit{the probability of the process terminating at the $r$th step} is
+			\begin{equation}
+				\label{eq:2.7.1}
+				q_r=\frac{(n)_{r-1}(r-1)}{n^r}
+			\end{equation} with $q_1=0$ and $q_2=\frac{1}{n}$. The \textit{probability that the process lasts for more than $r$ steps} is $p_r=1-(q_1+q_2+\cdots+q_r)$ or $p_1=1$ and 
+			\begin{equation}
+				\label{eq:2.7.2}
+				p_r = \frac{(n)_r}{n^r}
+			\end{equation}
+			as can be seen by simple induction. In particular, $p_{n+1}=0$ and $q_1+\cdots+q_{n+1}=1$. The induction to get $p_r$ is to consider $p_r-p_{r-1}$, while
+			\begin{equation}
+			\begin{aligned}
+				p_r-p_{r-1} &= -q_r \\ &= -\frac{(n)_{r-1}(r-1)}{n^r} \\ &=\frac{(n)_{r-1}}{n^{r-1}}\left(\frac{n-r+1}{n}-1\right) \\ &= \frac{(n)_{r}}{n^{r}}-\frac{(n)_{r-1}}{n^{r-1}}
+			\end{aligned}
+			\end{equation}
+			Alternative way to understand is that $p_r$ indicates no cell will contains more than one ball until the $r$th step. It's equivalent to the process lasts for more than $r$ steps.
 			\item[(ii)]
 			\end{enumerate}
+		\subsection{Binomial Coefficients}
+		\subsection{Stirling's Formula}
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
