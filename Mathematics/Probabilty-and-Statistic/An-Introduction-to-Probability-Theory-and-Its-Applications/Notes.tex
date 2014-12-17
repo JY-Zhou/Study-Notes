@@ -195,6 +195,7 @@
 			\item \textbf{Sampling with replacement}. Here a selection is made from the entire population, so that the same element can be drawn more than once. The samples are then arrangements in which repetitions are permitted. \\ In this case, each of the $r$ element can be chosen in $n$ ways. The number of possible samples is therefore $n^r$, as can be seen with theorem with $n_1 = n_2 = \dots = n$.
 			\item \textbf{Sampling without replacement}. Here an element once chosen is removed from the population, so that the sample becomes an arrangement without repetitions. \\ In this case, $r$ cannot exceed $n$. We have $n$ possible choices for the first element, but only $n-1$ for the second, $n-2$ for the third, etc., and so there are $n(n-1)\dots (n-r+1)$ choices in all. This appears so often and it is convenient to introduce the notation 
 			\begin{equation}
+				\label{eq:2.2.1}
 				(n)_r = n(n-1)\dots (n-r+1).
 			\end{equation}
 			Clearly $(n)_r = 0$ for integers $r, n$ such that $r > n$.
@@ -257,6 +258,7 @@
 			\end{equation}
 			Note that the left side in equation \eqref{eq:2.4.2} is not defined for $r=0$, but the right side is. In order to make equation \eqref{eq:2.4.2} valid for all integers $r$ such that $0\leq r\leq n$, we now define
 			\begin{equation}
+				\label{eq:2.4.4}
 				{n \choose 0} = 1,\indent 0! = 1,\indent(n)_0 = 1.
 			\end{equation}
 			\paragraph{}\textbf{Stirling's formula} can help us calculate the approximation of binomial coefficient, which will be disscussed in section 9.
@@ -377,10 +379,54 @@
 				p_r-p_{r-1} &= -q_r \\ &= -\frac{(n)_{r-1}(r-1)}{n^r} \\ &=\frac{(n)_{r-1}}{n^{r-1}}\left(\frac{n-r+1}{n}-1\right) \\ &= \frac{(n)_{r}}{n^{r}}-\frac{(n)_{r-1}}{n^{r-1}}
 			\end{aligned}
 			\end{equation}
-			Alternative way to understand is that $p_r$ indicates no cell will contains more than one ball until the $r$th step. It's equivalent to the process lasts for more than $r$ steps.
-			\item[(ii)]
-			\end{enumerate}
+			Alternative way to understand $p_r$ is that $p_r$ indicates no cell will contains more than one ball until the $r$th step. It's equivalent to the process lasts for more than $r$ steps.
+			\item[(ii)] This model depends on an infinite sample space. The sequences $(j_1,\dots,j_r)$ are now subjected to the condition that the numbers $j_1,\dots,j_{r-1}$ are different from a prescribed number $a\leq n$ but $j_r=a$. For $j_1,\dots,j_{r-1}$ we have $n-1$ choices each, and for $j_r$ no choice at all. For \textit{the probability that the process terminates at the $r$th step} we get therefore
+			\begin{equation}
+				\label{eq:2.7.4}
+				q_r=\left(\frac{n-1}{n}\right)^{r-1}\frac{1}{n}
+			\end{equation}
+			Summing this geometric series we find $q_1+q_2+\cdots=1$. For \textit{the probability that the process lasts for more than $r$ steps} we get
+			\begin{equation}
+				\label{eq:2.7.5}
+				p_r=1-(q_1+\cdots+q_r) = \left(1-\frac{1}{n}\right)^r
+			\end{equation}
+			Similarly, $p_r$ can also be yielded by placing the $r$ balls into the $n-1$ cells.
+			\end{enumerate}			
 		\subsection{Binomial Coefficients}
+			\paragraph{} We have used binomial coefficients ${n \choose r}$ only when $n$ is a positive integer, but it is very convenient to extend their definition. The number $(x)_r$ introduced in equation \eqref{eq:2.2.1}, namely
+			\begin{equation}
+				\label{eq:2.8.1}
+				(x)_r=x(x-1)\cdots(x-r+1)
+			\end{equation}
+			is well defined for all real $x$ provided only that $r$ is a positive integer. For $r=0$ we put $(x)_0=1$. Then
+			\begin{equation}
+				\label{eq:2.8.2}
+				{x \choose r} = \frac{(x)_r}{r!} = \frac{x(x-1)\cdots(x-r+1)}{r!}
+			\end{equation}
+			\textit{defines the binomial coefficients for all values of $x$ and all positive integers $r$. For $r=0$ we put, as in \eqref{eq:2.4.4}, ${x\choose 0} = 1$ and $0! =1$. For negative integers $r$ we define}
+			\begin{equation}
+				\label{eq:2.8.3}
+				{x \choose r} = 0, \indent r<0
+			\end{equation} \textit{We shall never use the symbol ${x\choose r}$ if $r$ is not an integer.}
+			\paragraph{} It's easily verified that with this definition we have, for example,
+			\begin{equation}
+				{-1\choose r} = (-1)^r, \indent {-2\choose r} = (-1)^r(r+1)
+			\end{equation}
+			\paragraph{} Three important properties will be used in the sequel.
+			\begin{enumerate}
+			\item For \textit{any positive integer $n$, if either $r>n$ or $r<0$,} 
+			\begin{equation}
+				{n \choose r} = 0
+			\end{equation}
+			\item For \textit{any number $x$ and any integer $r$,}
+			\begin{equation}
+				{x \choose r-1}+{x \choose r} = {x+1 \choose r}
+			\end{equation}
+			\item For \textit{any number $a$ and all values $-1<t<1$, we have \textbf{Newton's binomial formula}}
+			\begin{equation}
+				(1+t)^a = 1+{a\choose 1}t+{a\choose 2}t^2+{a\choose 3}t^3+\cdots
+			\end{equation}
+			\end{enumerate}
 		\subsection{Stirling's Formula}
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}

@@ -76,7 +76,10 @@
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {subsection}{\numberline {2.8}Binomial Coefficients}{19}
-\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{19}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{20}
-\contentsline {section}{\numberline {4}Combination of Events}{21}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{22}
+\contentsline {paragraph}{}{19}
+\contentsline {paragraph}{}{19}
+\contentsline {paragraph}{}{19}
+\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{20}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{21}
+\contentsline {section}{\numberline {4}Combination of Events}{22}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{23}
