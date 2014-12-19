@@ -462,7 +462,66 @@
 				n!\sim\sqrt{2\pi}n^{n+\frac{1}{2}}e^{-n}
 			\end{equation}
 			\textit{where the sign $\sim$ is used to indicate that the ratio of the two sides tends to unity as $n\rightarrow \infty$}.
-			\paragraph{{Proof}} 
+			\paragraph{Proof} Our first problem is to derive some sort of estimate for
+			\begin{equation}
+				\ln n! = \ln 1+\ln 2 + \cdots + \ln n
+			\end{equation}
+			Since $\ln x$ is a monotone function of $x$ we have
+			\begin{equation}
+				\int_{k-1}^{k}\ln xdx < \ln k < \int_{k}^{k+1}\ln xdx
+			\end{equation}
+			Summing over $k=1,\dots,n$ we get
+			\begin{equation}
+				\int_{0}^{n}\ln xdx < \ln n! < \int_{1}^{n+1}\ln xdx
+			\end{equation}
+			or
+			\begin{equation}
+				n\ln n-n < \ln n! < (n+1)\ln(n+1)-n
+			\end{equation}
+			This double inequality suggests comparing $\ln n!$ with some quantity close to the arithmetic mean of the extreme members. The simplest such quantity is $(n+\frac{1}{2})\ln n - n$, and accordingly we proceed to estimate the difference
+			\begin{equation}
+				\label{eq:2.9.6}
+				d_n=\ln n! - (n+\frac{1}{2})\ln n - n
+			\end{equation}
+			Note that
+			\begin{equation}
+				d_n-d_{n+1}=(n+\frac{1}{2})\ln \frac{n+1}{n}-1
+			\end{equation}
+			But
+			\begin{equation}
+				\frac{n+1}{n}=\frac{1+\frac{1}{2n+1}}{1-\frac{1}{2n+1}}
+			\end{equation}
+			and using the expansion \eqref{eq:2.8.11} we get
+			\begin{equation}
+				\label{eq:2.9.9}
+				d_n-d_{n+1}=\frac{1}{3(2n+1)^2}+\frac{1}{5(2n+1)^4}+\cdots
+			\end{equation}
+			By comparison of the right side with a geometric series with ratio $(2n+1)^{-2}$ one sees that
+			\begin{equation}
+				\label{eq:2.9.10}
+				0 < d_n-d_{n+1} < \frac{1}{3[(2n+1)^2-1]}=\frac{1}{12n}-\frac{1}{12(n+1)}
+			\end{equation}
+			From \eqref{eq:2.9.9} we conclude that the sequence $\{d_n\}$ is decreasing, while \eqref{eq:2.9.10} shows that the sequence $\{d_n-\frac{1}{12n}\}$ is increasing. It follows that finite limit
+			\begin{equation}
+				C = \lim d_n
+			\end{equation}
+			exists. But in view of \eqref{eq:2.9.6} the relation $d_n\rightarrow C$ is equivalent to
+			\begin{equation}
+				n! \sim e^Cn^{n+\frac{1}{2}}e^{-n}
+			\end{equation}
+			This is the Stirling's formula, and the constant $C$ will be proved later that $e^C = \sqrt{2\pi}$. The value of $e^C$ is connected with the normal approximation thearem which will be mentioned in chapter VII.
+			\paragraph{Refinements} The inequality \eqref{eq:2.9.10} has a companion inequality in the reverse direction. Indeed, from \eqref{eq:2.9.9} it is obvious that
+			\begin{equation}
+				d_n-d_{n+1} > \frac{1}{3(2n+1)^2} > \frac{1}{12n+1} - \frac{1}{12(n+1)+1}
+			\end{equation} It follows that the sequence $\{d_n-\frac{1}{12n+1}\}$ decrease. Since $\{d_n-\frac{1}{12n}\}$ increases this implies the double inequality
+			\begin{equation}
+				C+\frac{1}{12n+1} < d_n < C+\frac{1}{12n}
+			\end{equation}
+			Substituting into \eqref{eq:2.9.6}, and anticipating that $e^C=\sqrt{2\pi}$, we get
+			\begin{equation}
+				\sqrt{2\pi}n^{n+\frac{1}{2}}e^{-n}e^{\frac{1}{12n+1}} < n! < \sqrt{2\pi}n^{n+\frac{1}{2}}e^{-n}e^{\frac{1}{12n}}
+			\end{equation}
+			This double inequality supplement Stirling's formula in a remarkable manner.
 	\newpage
 	\section{Fluctuations in Coin Tossing and Random Walks}
 			
