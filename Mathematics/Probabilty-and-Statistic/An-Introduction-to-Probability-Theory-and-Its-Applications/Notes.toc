@@ -1,89 +1,93 @@
-\contentsline {section}{\numberline {1}The Sample Space}{2}
-\contentsline {subsection}{\numberline {1.1}The Empirical Background}{2}
-\contentsline {paragraph}{Events}{2}
-\contentsline {paragraph}{Sample points}{2}
-\contentsline {paragraph}{Sample Space}{2}
-\contentsline {subsection}{\numberline {1.2}Examples}{2}
-\contentsline {paragraph}{Notes}{2}
-\contentsline {subsection}{\numberline {1.3}The Sample Space and Events}{2}
-\contentsline {paragraph}{}{2}
-\contentsline {paragraph}{}{2}
-\contentsline {subsection}{\numberline {1.4}Relations among Events}{3}
+\contentsline {section}{\numberline {1}The Sample Space}{3}
+\contentsline {subsection}{\numberline {1.1}The Empirical Background}{3}
+\contentsline {paragraph}{Events}{3}
+\contentsline {paragraph}{Sample points}{3}
+\contentsline {paragraph}{Sample Space}{3}
+\contentsline {subsection}{\numberline {1.2}Examples}{3}
+\contentsline {paragraph}{Notes}{3}
+\contentsline {subsection}{\numberline {1.3}The Sample Space and Events}{3}
 \contentsline {paragraph}{}{3}
-\contentsline {paragraph}{Definations}{3}
-\contentsline {subsection}{\numberline {1.5}Discrete Sample Spaces}{4}
-\contentsline {paragraph}{Discrete Sample Space}{4}
+\contentsline {paragraph}{}{3}
+\contentsline {subsection}{\numberline {1.4}Relations among Events}{4}
 \contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {1.6}Probabilities in Discrete Sample Spaces: Preparations}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {paragraph}{}{4}
-\contentsline {subsection}{\numberline {1.7}The Basic Definitions and Rules}{4}
-\contentsline {paragraph}{Fundamental Convention}{4}
+\contentsline {paragraph}{Definations}{4}
+\contentsline {subsection}{\numberline {1.5}Discrete Sample Spaces}{5}
+\contentsline {paragraph}{Discrete Sample Space}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {paragraph}{Definition}{5}
+\contentsline {subsection}{\numberline {1.6}Probabilities in Discrete Sample Spaces: Preparations}{5}
 \contentsline {paragraph}{}{5}
-\contentsline {paragraph}{Theorem}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {subsection}{\numberline {1.7}The Basic Definitions and Rules}{5}
+\contentsline {paragraph}{Fundamental Convention}{5}
 \contentsline {paragraph}{}{6}
-\contentsline {subsection}{\numberline {1.8}Problems Solution}{6}
+\contentsline {paragraph}{Definition}{6}
 \contentsline {paragraph}{}{6}
-\contentsline {section}{\numberline {2}Elements of Combinatorial Analysis}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {2.1}Preliminary}{10}
-\contentsline {paragraph}{Pairs.}{10}
-\contentsline {paragraph}{Multiplets.}{10}
-\contentsline {paragraph}{}{10}
-\contentsline {subsection}{\numberline {2.2}Ordered Samples}{10}
-\contentsline {paragraph}{Ordered Sample. }{10}
-\contentsline {paragraph}{}{10}
-\contentsline {paragraph}{Theorem. }{11}
+\contentsline {paragraph}{Theorem}{6}
+\contentsline {paragraph}{}{7}
+\contentsline {subsection}{\numberline {1.8}Problems for Solution}{7}
+\contentsline {paragraph}{}{7}
+\contentsline {section}{\numberline {2}Elements of Combinatorial Analysis}{11}
 \contentsline {paragraph}{}{11}
-\contentsline {paragraph}{Corollary. }{11}
+\contentsline {subsection}{\numberline {2.1}Preliminary}{11}
+\contentsline {paragraph}{Pairs.}{11}
+\contentsline {paragraph}{Multiplets.}{11}
 \contentsline {paragraph}{}{11}
+\contentsline {subsection}{\numberline {2.2}Ordered Samples}{11}
+\contentsline {paragraph}{Ordered Sample. }{11}
 \contentsline {paragraph}{}{11}
-\contentsline {paragraph}{}{11}
-\contentsline {subsection}{\numberline {2.3}Examples}{11}
-\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{Theorem. }{12}
 \contentsline {paragraph}{}{12}
-\contentsline {subsection}{\numberline {2.4}Subpopulations and partitions}{12}
+\contentsline {paragraph}{Corollary. }{12}
 \contentsline {paragraph}{}{12}
-\contentsline {paragraph}{Theorem}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {paragraph}{}{12}
+\contentsline {subsection}{\numberline {2.3}Examples}{12}
 \contentsline {paragraph}{}{12}
 \contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {2.4}Subpopulations and partitions}{13}
 \contentsline {paragraph}{}{13}
 \contentsline {paragraph}{Theorem}{13}
 \contentsline {paragraph}{}{13}
-\contentsline {paragraph}{Proof}{13}
-\contentsline {subsection}{\numberline {2.5}Application to Occupancy Problems}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{}{14}
+\contentsline {paragraph}{Theorem}{14}
 \contentsline {paragraph}{}{14}
 \contentsline {paragraph}{Proof}{14}
-\contentsline {paragraph}{}{14}
-\contentsline {paragraph}{}{14}
+\contentsline {subsection}{\numberline {2.5}Application to Occupancy Problems}{15}
 \contentsline {paragraph}{}{15}
-\contentsline {subsubsection}{\numberline {2.5.1}Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}{15}
-\contentsline {subsubsection}{\numberline {2.5.2}Application to Runs}{16}
-\contentsline {paragraph}{Run}{16}
+\contentsline {paragraph}{Proof}{15}
+\contentsline {paragraph}{}{15}
+\contentsline {paragraph}{}{15}
 \contentsline {paragraph}{}{16}
-\contentsline {paragraph}{}{16}
-\contentsline {subsection}{\numberline {2.6}The Hypergeometric Distribution}{16}
-\contentsline {paragraph}{}{16}
-\contentsline {paragraph}{}{16}
+\contentsline {subsubsection}{\numberline {2.5.1}Maxwell-Boltzmann, Bose-Einstein and Fermi-Dirac Statistics}{16}
+\contentsline {subsubsection}{\numberline {2.5.2}Application to Runs}{17}
+\contentsline {paragraph}{Run}{17}
 \contentsline {paragraph}{}{17}
 \contentsline {paragraph}{}{17}
+\contentsline {subsection}{\numberline {2.6}The Hypergeometric Distribution}{17}
 \contentsline {paragraph}{}{17}
 \contentsline {paragraph}{}{17}
-\contentsline {subsection}{\numberline {2.7}Examples for Waiting Times}{18}
 \contentsline {paragraph}{}{18}
 \contentsline {paragraph}{}{18}
-\contentsline {subsection}{\numberline {2.8}Binomial Coefficients}{19}
+\contentsline {paragraph}{}{18}
+\contentsline {paragraph}{}{18}
+\contentsline {subsection}{\numberline {2.7}Examples for Waiting Times}{19}
 \contentsline {paragraph}{}{19}
 \contentsline {paragraph}{}{19}
-\contentsline {paragraph}{}{19}
+\contentsline {subsection}{\numberline {2.8}Binomial Coefficients}{20}
 \contentsline {paragraph}{}{20}
-\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{20}
-\contentsline {paragraph}{\textit {Stirling's formula:}}{20}
-\contentsline {paragraph}{Proof}{21}
-\contentsline {paragraph}{Refinements}{22}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{23}
-\contentsline {section}{\numberline {4}Combination of Events}{24}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{25}
+\contentsline {paragraph}{}{20}
+\contentsline {paragraph}{}{20}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{21}
+\contentsline {paragraph}{\textit {Stirling's formula:}}{21}
+\contentsline {paragraph}{Proof}{22}
+\contentsline {paragraph}{Refinements}{23}
+\contentsline {subsection}{\numberline {2.10}Problems for Solution}{23}
+\contentsline {subsubsection}{\numberline {2.10.1}Exercises and Examples}{23}
+\contentsline {subsubsection}{\numberline {2.10.2}}{23}
+\contentsline {subsubsection}{\numberline {2.10.3}}{23}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{24}
+\contentsline {section}{\numberline {4}Combination of Events}{25}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{26}
