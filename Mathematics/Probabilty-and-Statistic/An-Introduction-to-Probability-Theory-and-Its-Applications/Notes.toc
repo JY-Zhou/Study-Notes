@@ -86,8 +86,8 @@
 \contentsline {paragraph}{Refinements}{23}
 \contentsline {subsection}{\numberline {2.10}Problems for Solution}{23}
 \contentsline {subsubsection}{\numberline {2.10.1}Exercises and Examples}{23}
-\contentsline {subsubsection}{\numberline {2.10.2}}{23}
-\contentsline {subsubsection}{\numberline {2.10.3}}{23}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{24}
-\contentsline {section}{\numberline {4}Combination of Events}{25}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{26}
+\contentsline {subsubsection}{\numberline {2.10.2}}{24}
+\contentsline {subsubsection}{\numberline {2.10.3}}{24}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{25}
+\contentsline {section}{\numberline {4}Combination of Events}{26}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{27}
