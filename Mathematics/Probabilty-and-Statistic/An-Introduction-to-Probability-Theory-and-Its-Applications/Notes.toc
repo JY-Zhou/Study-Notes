@@ -75,19 +75,20 @@
 \contentsline {subsection}{\numberline {2.7}Examples for Waiting Times}{19}
 \contentsline {paragraph}{}{19}
 \contentsline {paragraph}{}{19}
+\contentsline {paragraph}{}{20}
 \contentsline {subsection}{\numberline {2.8}Binomial Coefficients}{20}
 \contentsline {paragraph}{}{20}
 \contentsline {paragraph}{}{20}
-\contentsline {paragraph}{}{20}
 \contentsline {paragraph}{}{21}
-\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{21}
-\contentsline {paragraph}{\textit {Stirling's formula:}}{21}
+\contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {2.9}Stirling's Formula}{22}
+\contentsline {paragraph}{\textit {Stirling's formula:}}{22}
 \contentsline {paragraph}{Proof}{22}
 \contentsline {paragraph}{Refinements}{23}
 \contentsline {subsection}{\numberline {2.10}Problems for Solution}{23}
 \contentsline {subsubsection}{\numberline {2.10.1}Exercises and Examples}{23}
-\contentsline {subsubsection}{\numberline {2.10.2}}{24}
-\contentsline {subsubsection}{\numberline {2.10.3}}{24}
-\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{25}
-\contentsline {section}{\numberline {4}Combination of Events}{26}
-\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{27}
+\contentsline {subsubsection}{\numberline {2.10.2}}{26}
+\contentsline {subsubsection}{\numberline {2.10.3}}{26}
+\contentsline {section}{\numberline {3}Fluctuations in Coin Tossing and Random Walks}{27}
+\contentsline {section}{\numberline {4}Combination of Events}{28}
+\contentsline {section}{\numberline {5}Conditional Probability, Stochastic Independence}{29}

@@ -391,7 +391,8 @@
 				p_r=1-(q_1+\cdots+q_r) = \left(1-\frac{1}{n}\right)^r
 			\end{equation}
 			Similarly, $p_r$ can also be yielded by placing the $r$ balls into the $n-1$ cells.
-			\end{enumerate}			
+			\end{enumerate}
+			\paragraph{} Here, we have a definition that \textit{the median for the distribution}, which is the value of $r$ for which $p_1+\cdots+p_{r-1}\leq 0.5$ but $p_1+\cdots+p_{r} > 0.5$.
 		\subsection{Binomial Coefficients}
 			\paragraph{} We have used binomial coefficients ${n \choose r}$ only when $n$ is a positive integer, but it is very convenient to extend their definition. The number $(x)_r$ introduced in equation \eqref{eq:2.2.1}, namely
 			\begin{equation}
@@ -542,6 +543,20 @@
 		\item $p = \frac{6^{12}}{7^{12}} = 0.157$, so this can't prove that no tickets are given on Sun.
 		\item $p = \frac{{90 \choose 10}}{{100 \choose 10}} = 0.330$
 		\item $p = 1-\frac{5\times4^{25}}{5^{25}} = 0.981$
+		\item $p_a = \frac{2(n-r-1)(n-2)!}{n!} = \frac{2(n-r-1)}{n(n-1)}$ \\ $p_b=\frac{(n-2)!}{(n-1)!} = \frac{1}{n-1}$
+		\item (a) If dice are distinguishable, $p_a = \frac{6^3}{6^3\times6^3} = \frac{1}{216}$. \\ (b) If dice are indistinguishable, $p_b = \frac{{8\choose 3}}{{8 \choose 3}\times{8 \choose 3}} = \frac{1}{56}$.
+		\item $p_a = 1-\frac{5^4}{6^4} = 0.518$, $p_b = 1-\left(1-\frac{1}{36}\right)^{24} = 0.491$. So, the assert is proved.
+		\item (a) Without replacement, $p_a = \frac{(n-N)_r}{(n)_r}$. \\ (b) With replacement, $p_b = \frac{(n-N)^r}{n^r}$. \\ (i) When $n=100, r=N=3$, $p_a = 0.912$, $p_b = 0.913$ \\ (ii) When $n=100, r=N=10$, $p_a = 0.330$, $p_b = 0.737$
+		\item (a) $p_a = \frac{n(n-1)^{r-1}}{n^r} = \frac{(n-1)^{r-1}}{n^{r-1}} = \left(\frac{n-1}{n}\right)^{r-1}$ \\ (b) $p_b = \frac{(n)_r}{n^r}$ \\ ?(c) $p_c = \frac{{n\choose N}{n-1\choose N}^{N(r-1)}}{{n\choose N}{n\choose N}^{N(r-1)}} = \frac{{n-1\choose N}^{N(r-1)}}{{n\choose N}^{N(r-1)}} = \left(\frac{n-N}{n}\right)^{N(r-1)}$ \\ ?(d) $p_d = \frac{{n\choose N}{n-N \choose N}{n-2N\choose N}\cdots{n-N(r-1)N \choose N}}{{n\choose N}{n\choose N}^{N(r-1)}} = \frac{\prod_{k=1}^{N(r-1)}{n-kN\choose N}}{{n\choose N}^{N(r-1)}}$, \\ here we let $A=N(r-1)$ and we can reduce $p_d$ into $p_d = \frac{{n-N\choose AN}\frac{(AN)!}{(N!)^A}}{{n\choose N}^A}$, note that $\frac{(AN)!}{(N!)^A}$ is a multinomial coefficient, denoting another way to understand this problem.
+		\item ? $p_r = \frac{{n\choose 2}{n-1\choose2}^{2(r-1)}}{{n\choose 2}{n\choose 2}^{2(r-1)}} = \left(\frac{n-2}{n}\right)^{2(r-1)}$. \\Supposing $n$ is large enough, the median $r_{mid}$ is the least value of $r$ satisfying $\sum_{i=1}^{r}p_i > 0.5$. While $$\lim_{n\rightarrow\infty}\sum_{i=1}^{r}p_i=\lim_{n\rightarrow\infty}\frac{1-\left(\frac{n-2}{n}\right)^{2r}}{1-\left(\frac{n-2}{n}\right)^2}=$$
+		\item If the girls have same probabilities to break a dish, the probability that three of four breakages are caused by one girl is $p = \frac{{4\choose 3}{3\choose 1}}{4^4} = 0.047$. The probability is small and we can regard the youngest girl is clumsy.
+		\item (a) $p_a = \frac{12!}{12^{12}} = 5.37\times10^{-5}$. (b) $p_b = \frac{{12\choose 2}(2^6-2)}{12^6} = 1.37\times10^{-3}.$
+		\item $p = \frac{\frac{12!}{6!6!}\frac{30!}{(3!)^6(2!)^6}}{12^{30}} = 3.45\times10^{-4}$
+		\item (a) $p_a = \frac{{n\choose 2r}{2\choose 1}}{{2n\choose 2r}}$ (b) $p_b = \frac{{n\choose 1}{n-1\choose 2r-2}{2\choose 1}}{{2n\choose 2r}}$ (c) $p_c = \frac{{n\choose 2}{n-2\choose 2r-4}{2\choose 1}}{{2n\choose 2r}}$
+		\item $p = \frac{{N-3 \choose N-r-2}}{{N-1\choose N-r}}$
+		\item $p = \frac{{2N\choose N}{2N\choose N}}{{4N \choose 2N}} = \frac{((2N)!)^4}{(N!)^4(4N)!} \approx \sqrt{\frac{2}{\pi N}}$
+		\item $p_a = \frac{{4\choose k}{48 \choose 13-k}}{{52 \choose 13}}$, $p_b = \frac{{4\choose k}{48\choose 13-k}\frac{39!}{(13!)^3}}{\frac{52!}{(13!)^4}} = \frac{{4\choose k}{48\choose 13-k}}{\frac{52!}{39!13!}} = p_a$. Proved.
+		\item $p_a = \frac{{13\choose m}{39\choose 13-m}{26+m\choose 13 -n}}{{52\choose 13}{39\choose 13}}$, $p_b = \frac{{13\choose m}{39\choose 13-m}{26+m\choose 13-n}\frac{26!}{13!13!}}{\frac{52!}{(13!)^4}} = \frac{{13\choose m}{39\choose 13-m}{26+m\choose 13-n}}{\frac{52!}{13!39!}\frac{39!}{13!26!}} = p_a $. Proved.
 		\item 
 		\end{enumerate}
 		\subsubsection{}
